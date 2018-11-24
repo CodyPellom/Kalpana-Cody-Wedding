@@ -1,22 +1,33 @@
-
+/* 
+html body header footer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
 nav {
 width: 100vw;
 height: 150px;
-background-image: url("https://i.imgur.com/pJ7PlW3.png");
+background-image: url("https://i.imgur.com/8yHB6MO.png");
 background-repeat: no-repeat;
-background-size: cover;  
-margin-top: -10px;
+background-size: contain;  
+background-size: 100vw;
 position: fixed;
+margin-top: -7.5px;
+padding-bottom: 20px;
 }
 .navText{
 position: flex;
 flex-direction: row;
 justify-content: center;
-margin-right: 50px;
-margin-top: 65px;
+margin-right: 25px;
 text-decoration: none;
 color: pink;
 font-family: 'Arvo';
+font-size: 2vw;
 }
 #mainLander{
     display: flex;
@@ -25,5 +36,13 @@ font-family: 'Arvo';
     background-image: url("https://i.imgur.com/e1RokU9.jpg");  
     width: 100vw;
     height: 250vh;
+}
+.grid-container{
+    display: grid;
+    grid-gap: 5vw;
+}
+.grid-item {
+    grid-row-start: 1;
+    grid-row-end: 3;
 }
 
