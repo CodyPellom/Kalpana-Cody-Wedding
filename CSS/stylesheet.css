@@ -8,41 +8,37 @@ html body header footer {
   font-size: calc(10px + 2vmin);
   color: white;
 } */
-nav {
-width: 100vw;
-height: 150px;
-background-image: url("https://i.imgur.com/8yHB6MO.png");
-background-repeat: no-repeat;
-background-size: contain;  
-background-size: 100vw;
-position: fixed;
-margin-top: -7.5px;
-padding-bottom: 20px;
-}
-.navText{
-position: flex;
-flex-direction: row;
-justify-content: center;
-margin-right: 25px;
-text-decoration: none;
-color: pink;
-font-family: 'Arvo';
-font-size: 2vw;
-}
-#mainLander{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;  
-    background-image: url("https://i.imgur.com/e1RokU9.jpg");  
+#navBar {
     width: 100vw;
-    height: 250vh;
+    height: 200px;
+    background-image: url("https://i.imgur.com/8yHB6MO.png");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
-.grid-container{
-    display: grid;
-    grid-gap: 5vw;
-}
-.grid-item {
-    grid-row-start: 1;
-    grid-row-end: 3;
-}
+#mainLanderSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 500px;
 
+}
+#mainLanderImage {
+    width: 700px;
+    height: 450px;
+    border: solid lightpink 10px;
+    outline: pink solid 8px;
+}
+.headers {
+font-size: 10vh;
+color: pink;
+font-family: 'Pacifico';
+}
+.subHeaders {
+    font-size: 7.5vh;
+    color: pink;
+}
+.descriptors {
+
+}
