@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Kalpana & Cody</title>
-    <link href="https://fonts.googleapis.com/css?family=Arvo|Dancing+Script|Playfair+Display|QuicksandGloria+Hallelujah|Arvo|Dancing+Script|Gloria+Hallelujah|Aref+Ruqaa|Cormorant+Upright|Libre+Baskerville|Pacifico"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arvo|Dancing+Script|Playfair+Display|QuicksandGloria+Hallelujah|Arvo|Dancing+Script|Gloria+Hallelujah|Aref+Ruqaa|Cormorant+Upright|Libre+Baskerville|Pacifico"
+        rel="stylesheet">
     <link rel="stylesheet" href="../node_modules/hover.css/css/hover-min.css">
     <link rel="stylesheet" href="../CSS/stylesheet.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -23,7 +24,7 @@
 
 <body>
     <div id="mainLanderSection">
-        <h3 class="headers">Welcome</h3>
+        <h3 id="mainHeaderText"class="headers ">We are getting married!</h3>
         <img id="mainLanderImage" src="https://i.imgur.com/e1RokU9.jpg" alt="">
     </div>
 
@@ -43,7 +44,7 @@
         <h3 class="headers">Join Us</h3>
         <div class="grid-container">
             <div class="grid-item">
-                <a href="https://goo.gl/maps/2EGbc21qc8L2">
+                <a href="https://goo.gl/maps/2EGbc21qc8L2"target="_blank">
                     <img class="squareImage hvr-bob" src="https://i.imgur.com/F8jLbDI.png" alt="">
                 </a>
             </div>
@@ -56,7 +57,7 @@
 
     <div id="contributeSection">
         <h3 class="headers">Contribute</h3>
-        <a href="https://www.paypal.me/PaulPellom">
+        <a href="https://www.paypal.me/PaulPellom" target="_blank">
             <img id="contributeImg" class="hvr-buzz-out" src="https://i.imgur.com/zCQGRo4.png" alt="">
         </a>
         <p class="descriptors">In lieu of a wedding registry, the bride and groom are currently accepting
@@ -74,7 +75,7 @@
             <div class="grid-item">
                 <div class="flexer">
                     <h5 class=subHeaders>Kunal</h5>
-                    <a href="https://www.instagram.com/kunalarora97/">
+                    <a href="https://www.instagram.com/kunalarora97/" target="_blank">
                         <img class="littleCircleImage hvr-bounce-in" src="https://i.imgur.com/2GdEEn3.png" alt="">
                     </a>
                 </div>
@@ -83,7 +84,7 @@
             <div class="grid-item">
                 <div class="flexer">
                     <h5 class=subHeaders>Neelima & Rupesh</h5>
-                    <a href="https://www.facebook.com/profile.php?id=547569991">
+                    <a href="https://www.facebook.com/profile.php?id=547569991" target="_blank">
                         <img class="littleCircleImage hvr-bounce-in" src="https://i.imgur.com/dAjtz9n.png" alt="">
                     </a>
                 </div>
@@ -107,93 +108,109 @@
     </div>
 
 
-<div id="gallerySection">
-<h3 class="headers">Gallery</h3>
+    <div id="gallerySection">
+        <h3 id="galleryHeader" class="headers">Gallery</h3>
 
 
-<!-- Slideshow container -->
-<div class="slideshow-container">
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
 
-        <!-- Full-width images with number and caption text -->
-        <div class="mySlides fade">
-          <div class="numbertext">1 / 9</div>
-          <img src="https://i.imgur.com/MfALhSm.jpg" style="width:100%">
-          <div class="text">Caption Text</div>
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div id="blackText" class="numbertext">1 / 9</div>
+                <img src="https://i.imgur.com/MfALhSm.jpg" style="width:100%">
+                <a href="https://www.facebook.com/melissartieda" target="_blank">
+                    <div id="blackText" class="text">Savannah Georgia! (Photo by Meli Artieda)</div>
+                </a>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 9</div>
+                <img src="https://i.imgur.com/1j8hBCF.jpg" style="width:100%">
+                <a href="https://www.facebook.com/melissartieda" target="_blank">
+                    <div class="text">Savannah Georgia! (Photo by Meli Artieda)</div>
+                </a>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 9</div>
+                <img src="https://i.imgur.com/9jnJ8KM.jpg" style="width:100%">
+                <a href="https://www.facebook.com/melissartieda" target="_blank">
+                    <div class="text">Savannah Georgia! (Photo by Meli Artieda)</div>
+                </a>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 9</div>
+                <img src="https://i.imgur.com/e1RokU9.jpg" style="width:100%">
+                <a href="https://www.facebook.com/melissartieda" target="_blank">
+                    <div class="text">Savannah Georgia! (Photo by Meli Artieda)</div>
+                </a>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 9</div>
+                <img src="https://i.imgur.com/WeO2XvQ.jpg" style="width:100%">
+                <a href="https://www.facebook.com/melissartieda" target="_blank">
+                    <div class="text">Savannah Georgia! (Photo by Meli Artieda)</div>
+                </a>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">6 / 9</div>
+                <img id="bigImageThree" src="https://i.imgur.com/4HnkaOc.jpg" style="width:100%">
+                <a href="https://www.facebook.com/melissartieda" target="_blank">
+                    <div id="blackText" class="text">Savannah Georgia! (Photo by Meli Artieda)</div>
+                </a>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">7 / 9</div>
+                <img id="bigImage"src="https://i.imgur.com/VYFs1Fi.jpg" style="width:100%">
+                <a href="https://www.facebook.com/pat.pellom" target="_blank">
+                    <div class="text">Christmas 2017 with Nana(Pat Pellom). </div>
+                </a>
+            </div>
+
+            <div class="mySlides fade">
+                <div id="blackText" class="numbertext">8 / 9</div>
+                <img id="bigImageTwo"src="https://i.imgur.com/zCQGRo4.png" style="width:100%">
+                <div id="blackText" class="text">Little five points.</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">9 / 9</div>
+                <img src="https://i.imgur.com/dAjtz9n.png" style="width:100%">
+                <a href="https://www.facebook.com/profile.php?id=547569991" target="_blank">
+                    <div class="text">Neelima & Rupesh Arora (Kalpana's Parents)</div>
+                </a>
+            </div>
+
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
-      
-        <div class="mySlides fade">
-          <div class="numbertext">2 / 9</div>
-          <img src="https://i.imgur.com/1j8hBCF.jpg" style="width:100%">
-          <div class="text">Caption Two</div>
+        <br>
+        <h5 class="subHeaders">Click any button below to start!</h5>
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span>
+            <span class="dot" onclick="currentSlide(9)"></span>
         </div>
-      
-        <div class="mySlides fade">
-          <div class="numbertext">3 / 9</div>
-          <img src="https://i.imgur.com/9jnJ8KM.jpg" style="width:100%">
-          <div class="text">Caption Three</div>
-        </div>
-      
-        <div class="mySlides fade">
-            <div class="numbertext">4 / 9</div>
-            <img src="https://i.imgur.com/e1RokU9.jpg" style="width:100%">
-            <div class="text">Caption Three</div>
-          </div>
-
-          <div class="mySlides fade">
-            <div class="numbertext">5 / 9</div>
-            <img src="https://i.imgur.com/WeO2XvQ.jpg" style="width:100%">
-            <div class="text">Caption Three</div>
-          </div>
-
-          <div class="mySlides fade">
-            <div class="numbertext">6 / 9</div>
-            <img src="https://i.imgur.com/4HnkaOc.jpg" style="width:100%">
-            <div class="text">Caption Three</div>
-          </div>
-
-          <div class="mySlides fade">
-            <div class="numbertext">7 / 9</div>
-            <img src="https://i.imgur.com/VYFs1Fi.jpg" style="width:100%">
-            <div class="text">Caption Three</div>
-          </div>
-
-          <div class="mySlides fade">
-            <div class="numbertext">8 / 9</div>
-            <img src="https://i.imgur.com/zCQGRo4.png" style="width:100%">
-            <div class="text">Caption Three</div>
-          </div>
-
-          <div class="mySlides fade">
-            <div class="numbertext">9 / 9</div>
-            <img src="https://i.imgur.com/dAjtz9n.png" style="width:100%">
-            <div class="text">Caption Three</div>
-          </div>
 
 
-        <!-- Next and previous buttons -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      </div>
-      <br>
-      <h5 class="subHeaders">Click any button below to start</h5>
-      <!-- The dots/circles -->
-      <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span> 
-        <span class="dot" onclick="currentSlide(2)"></span> 
-        <span class="dot" onclick="currentSlide(3)"></span>
-        <span class="dot" onclick="currentSlide(4)"></span>
-        <span class="dot" onclick="currentSlide(5)"></span>
-        <span class="dot" onclick="currentSlide(6)"></span>
-        <span class="dot" onclick="currentSlide(7)"></span>
-        <span class="dot" onclick="currentSlide(8)"></span>
-        <span class="dot" onclick="currentSlide(9)"></span> 
-      </div>
-      
-
-</div>
+    </div>
 
 
-</div>
+    </div>
 </body>
 
 

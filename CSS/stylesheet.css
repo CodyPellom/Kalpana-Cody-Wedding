@@ -15,7 +15,18 @@ html body header footer {
     background-repeat: no-repeat;
     background-size: contain;
 }
+#mainHeaderText {
+    font-size: 30px;
+    animation:blinkingText 1s infinite;
 
+}
+@keyframes blinkingText{
+    0%{     color: rgb(255, 198, 198);    }
+    49%{    color: transparent; }
+    50%{    color: transparent; }
+    99%{    color: rgb(255, 198, 198);  }
+    100%{   color: rgb(255, 198, 198); }
+}
 #mainLanderSection {
     display: flex;
     flex-direction: column;
@@ -146,13 +157,33 @@ html body header footer {
     align-items: center;
     justify-content: center;
     width: 100vw;
-    height: 1000px;
+    height:725px;
+    margin-top: 100px;
 }
-
+#galleryHeader {
+    
+}
+#bigImageThree {
+    height:490px;
+    max-width: 300px;
+}
+#bigImage {
+    max-height:500px;
+    max-width: 275px;
+}
+#bigImageTwo {
+    max-height:500px;
+    max-width: 275px;
+    padding-bottom: -400px;
+}
+#blackText {
+    color: rgb(231, 93, 116);
+}
 .slideshow-container {
     max-width: 1000px;
     position: relative;
     margin: auto;
+    margin-top: -50px;
   }
   
   /* Hide the images by default */
