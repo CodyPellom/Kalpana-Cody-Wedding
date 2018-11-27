@@ -32,12 +32,12 @@ html body header footer {
     box-shadow: 10px 10px 8px #888888;
 }
 .headers {
-font-size: 10vh;
+font-size: 12vh;
 color: pink;
 font-family: 'Pacifico';
 }
 .subHeaders {
-    font-size: 7.5vh;
+    font-size: 5vh;
     color: pink;
     font-family: 'Pacifico';
 }
@@ -69,7 +69,7 @@ margin-right: 4vw;
     align-items: center;
     justify-content: center;
     width: 100vw;
-    height: 1500px;
+    height: 800px;
 }
 .grid-container {
     display: grid;
@@ -86,9 +86,39 @@ margin-right: 4vw;
     box-shadow: 10px 10px 8px #888888;
 
 }
+.littleCircleImage {
+    border-radius: 50%;
+    border: solid pink 5px;
+    width: 100px;
+    height: 100px;
+}
+.flexer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 #imageSwap {
     border: solid pink 10px;
     box-shadow: 10px 10px 8px #888888;
-
-
+}
+#contributeSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 1000px;
+} 
+#contributeImg {
+    width: 325px;
+    height: 400px;
+}
+#vipSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 1000px;
 }
