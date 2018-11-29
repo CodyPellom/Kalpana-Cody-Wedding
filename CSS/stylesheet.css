@@ -11,21 +11,39 @@ html body header footer {
 #navBar {
     width: 100vw;
     height: 200px;
-    background-image: url("https://i.imgur.com/8yHB6MO.png");
+    background-image: url("https://lh3.googleusercontent.com/OKGuWoeCX9t7Cq5RS99nhlT_ZwCGbiEUa3MRb1f2UlP_10s-TCNOd6DLgsjifpmZjwOyDEK1UXpUkMJwy1gI3zShkwtmitbbh9wtN6_wMKafaOCluhVe5biq0tahrwzN7_g4z61RbsXu8bNnjOQtWDvaeKBasOGiBnxKToYFkSMVuI-Wg7VvMSLyAuCBLVRD_ZcwylX5JF4KzADzdfj49eqcxPmQSGe1AL2SVqZMrmow-U5On0OftESZ2-_-kE4Dh3FurN7GhNAu6Cu0rCi5z1NK0q3d02OE5cL7tjIdewgihW4zMemsM92w4cVLkoUyOdwfmV-0m25LEQVD_UXKBxtGQd0vvOD1oD2JXgr_iQVCLdwc5qIr5Nqnne-HRUVDWKgeK3uYCPRNDw7liaObq-2rVWy9pkWZvC1bp_zannmic9jXy6w7YDP_MZYax5FgaJRfLW2HxNGm1PQ6RE4KaPwNnGnJUGtqq8pudcgzqGKJN8zqJIT2fJZZdX-seSd9QZs3SK657qgMatqdrRRK57Lhb73yIC6slDW4oqKPBQk6y4ppmGNsI1CXWDzbEjxN2KzNfDuOqnVyQ-3f9Kla5M9-1jE9d__nYTa7b6PSmi2B9D2NlVP8pXNMvFIMN0CjXv-iS00b7VlLIJ_v3T7NfSXa=w1174-h152-no");
     background-repeat: no-repeat;
     background-size: contain;
 }
+.grid-text {
+    display: grid;
+}
+.grid-text-item {
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.grid-text-attributes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: pink;
+    text-decoration: none;
+    font-size: 4vh;
+    font-family: 'Cormorant Upright';
+}
 #mainHeaderText {
-    font-size: 30px;
+    font-size: 45px;
+    font-family: 'Bungee Shade';
     animation:blinkingText 1s infinite;
-
+    text-align: center;
 }
 @keyframes blinkingText{
-    0%{     color: rgb(255, 198, 198);    }
+    0%{     color: rgb(255, 147, 188);    }
     49%{    color: transparent; }
     50%{    color: transparent; }
-    99%{    color: rgb(255, 198, 198);  }
-    100%{   color: rgb(255, 198, 198); }
+    99%{   color: rgb(255, 147, 188);   }
+    100%{   color: rgb(255, 147, 188);  }
 }
 #mainLanderSection {
     display: flex;
@@ -47,14 +65,14 @@ html body header footer {
 
 .headers {
     font-size: 12vh;
-    color: pink;
+    color: rgb(53, 53, 53);
     font-family: 'Pacifico';
 }
 
 .subHeaders {
-    font-size: 5vh;
+    font-size: 6.5vh;
     color: pink;
-    font-family: 'Pacifico';
+    font-family: 'Cookie';
 }
 
 .descriptors {
@@ -97,21 +115,25 @@ html body header footer {
 }
 
 .grid-item {
+    margin-right: 25px;
     grid-row-start: 1;
-    grid-row-end: 3;
-    margin-right: 20px;
+    grid-row-end: 2;
+    
 }
 
 .squareImage {
-    border: solid pink 10px;
+
     box-shadow: 10px 10px 8px #888888;
 
+}
+#kunal {
+    margin-left: 100px;
 }
 
 .littleCircleImage {
     box-shadow: 5px 8px 8px #888888;
     border-radius: 50%;
-    border: solid rgba(92, 255, 193, 0.74) 5px;
+    /* border: solid rgba(92, 255, 193, 0.74) 5px; */
     width: 100px;
     height: 100px;
 }
@@ -124,7 +146,6 @@ html body header footer {
 }
 
 #imageSwap {
-    border: solid pink 10px;
     box-shadow: 10px 10px 8px #888888;
 }
 
@@ -165,7 +186,7 @@ html body header footer {
 }
 #bigImageThree {
     height:490px;
-    max-width: 300px;
+    max-width: 650px;
 }
 #bigImage {
     max-height:500px;
@@ -177,7 +198,8 @@ html body header footer {
     padding-bottom: -400px;
 }
 #blackText {
-    color: rgb(231, 93, 116);
+    color: rgb(89, 206, 141);
+    font-size: 16px;
 }
 .slideshow-container {
     max-width: 1000px;
@@ -270,4 +292,14 @@ html body header footer {
   @keyframes fade {
     from {opacity: .4} 
     to {opacity: 1}
+  }
+
+  #facebookCommentSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height:850px;
+    
   }
