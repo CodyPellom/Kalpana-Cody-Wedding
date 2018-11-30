@@ -15,13 +15,16 @@ html body header footer {
     background-repeat: no-repeat;
     background-size: contain;
 }
+
 .grid-text {
     display: grid;
 }
+
 .grid-text-item {
     grid-row-start: 1;
     grid-row-end: 2;
 }
+
 .grid-text-attributes {
     display: flex;
     flex-direction: column;
@@ -32,19 +35,36 @@ html body header footer {
     font-size: 4vh;
     font-family: 'Cormorant Upright';
 }
+
 #mainHeaderText {
     font-size: 45px;
     font-family: 'Bungee Shade';
-    animation:blinkingText 1s infinite;
+    animation: blinkingText 1s infinite;
     text-align: center;
 }
-@keyframes blinkingText{
-    0%{     color: rgb(255, 147, 188);    }
-    49%{    color: transparent; }
-    50%{    color: transparent; }
-    99%{   color: rgb(255, 147, 188);   }
-    100%{   color: rgb(255, 147, 188);  }
+
+@keyframes blinkingText {
+    0% {
+        color: rgb(255, 147, 188);
+    }
+
+    49% {
+        color: transparent;
+    }
+
+    50% {
+        color: transparent;
+    }
+
+    99% {
+        color: rgb(255, 147, 188);
+    }
+
+    100% {
+        color: rgb(255, 147, 188);
+    }
 }
+
 #mainLanderSection {
     display: flex;
     flex-direction: column;
@@ -52,6 +72,7 @@ html body header footer {
     justify-content: center;
     width: 100vw;
     height: 500px;
+    margin-top: 50px;
 
 }
 
@@ -105,6 +126,7 @@ html body header footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: -75px;
     width: 100vw;
     height: 800px;
 }
@@ -118,7 +140,7 @@ html body header footer {
     margin-right: 25px;
     grid-row-start: 1;
     grid-row-end: 2;
-    
+
 }
 
 .squareImage {
@@ -126,6 +148,7 @@ html body header footer {
     box-shadow: 10px 10px 8px #888888;
 
 }
+
 #kunal {
     margin-left: 100px;
 }
@@ -170,6 +193,7 @@ html body header footer {
     justify-content: center;
     width: 100vw;
     height: 1000px;
+    margin-top: -100px;
 }
 
 #gallerySection {
@@ -178,43 +202,48 @@ html body header footer {
     align-items: center;
     justify-content: center;
     width: 100vw;
-    height:725px;
+    height: 725px;
     margin-top: 100px;
 }
-#galleryHeader {
-    
-}
+
+#galleryHeader {}
+
 #bigImageThree {
-    height:490px;
+    height: 490px;
     max-width: 650px;
 }
+
 #bigImage {
-    max-height:500px;
+    max-height: 500px;
     max-width: 275px;
 }
+
 #bigImageTwo {
-    max-height:500px;
+    max-height: 500px;
     max-width: 275px;
     padding-bottom: -400px;
 }
+
 #blackText {
     color: rgb(89, 206, 141);
     font-size: 16px;
 }
+
 .slideshow-container {
     max-width: 1000px;
     position: relative;
     margin: auto;
     margin-top: -50px;
-  }
-  
-  /* Hide the images by default */
-  .mySlides {
+}
+
+/* Hide the images by default */
+.mySlides {
     display: none;
-  }
-  
-  /* Next & previous buttons */
-  .prev, .next {
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -227,21 +256,22 @@ html body header footer {
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
+}
+
+/* Position the "next button" to the right */
+.next {
     right: 0;
     border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
-  
-  /* Caption text */
-  .text {
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
     color: #f2f2f2;
     font-size: 15px;
     padding: 8px 12px;
@@ -249,19 +279,19 @@ html body header footer {
     bottom: 8px;
     width: 100%;
     text-align: center;
-  }
-  
-  /* Number text (1/3 etc) */
-  .numbertext {
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
     color: #f2f2f2;
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
     top: 0;
-  }
-  
-  /* The dots/bullets/indicators */
-  .dot {
+}
+
+/* The dots/bullets/indicators */
+.dot {
     cursor: pointer;
     height: 15px;
     width: 15px;
@@ -270,36 +300,47 @@ html body header footer {
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
-  }
-  
-  .active, .dot:hover {
+}
+
+.active,
+.dot:hover {
     background-color: #717171;
-  }
-  
-  /* Fading animation */
-  .fade {
+}
+
+/* Fading animation */
+.fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
     animation-duration: 1.5s;
-  }
-  
-  @-webkit-keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
+}
 
-  #facebookCommentSection {
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+#facebookCommentSection {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100vw;
-    height:850px;
-    
-  }
+    height: 850px;
+
+}

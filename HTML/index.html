@@ -3,12 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Kalpana & Cody</title>
     <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Cookie|Monoto|Arvo|Dancing+Script|Playfair+Display|Quicksand|Gloria+Hallelujah|Arvo|Dancing+Script|Gloria+Hallelujah|Aref+Ruqaa|Cormorant+Upright|Libre+Baskerville|Pacifico"
         rel="stylesheet">
     <link rel="stylesheet" href="../node_modules/hover.css/css/hover-min.css">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
     <link rel="stylesheet" href="../CSS/stylesheet.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="../JS/main.js"></script>
@@ -18,23 +19,24 @@
             reset: true
         });
     </script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
     <div id="navBar">
         <div class="grid-text">
             <div class="grid-text-item hvr-bob">
-            <a class="grid-text-attributes" id="aboutNav"href="#">About</a>
-        </div>
-        <div class="grid-text-item hvr-bob">
-            <a class="grid-text-attributes" id="attendNav"href="#">Attend</a>
+                <a class="grid-text-attributes" id="aboutNav" href="#">About</a>
             </div>
             <div class="grid-text-item hvr-bob">
-            <a class="grid-text-attributes" id="contribNav"href="#">Contribute</a>
-        </div>
-        <div class="grid-text-item hvr-bob">
-            <a  class="grid-text-attributes" id="vipNav" href="#">VIPs</a>
-        </div>
-        <div class="grid-text-item hvr-bob">
-            <a class="grid-text-attributes" id="networkNav" href="#">Network</a>
-        </div>
+                <a class="grid-text-attributes" id="attendNav" href="#">Attend</a>
+            </div>
+            <div class="grid-text-item hvr-bob">
+                <a class="grid-text-attributes" id="contribNav" href="#">Contribute</a>
+            </div>
+            <div class="grid-text-item hvr-bob">
+                <a class="grid-text-attributes" id="vipNav" href="#">VIPs</a>
+            </div>
+            <div class="grid-text-item hvr-bob">
+                <a class="grid-text-attributes" id="networkNav" href="#">Network</a>
+            </div>
         </div>
     </div>
 </head>
@@ -42,18 +44,25 @@
 <body>
     <div id="mainLanderSection">
         <h3 id="mainHeaderText">We are getting married!</h3>
-        <img id="mainLanderImage" src="https://lh3.googleusercontent.com/Af0RR3w3PEsF8eIWOuKIAG4o1MY9KpvrlQMvibO095h4XEfx1K69Qa4xB-A_pIy9TbVj2_dHZQjuQm_Zk_pZ7FPswFt3nKLkO2RcX6M66i5sMuzDaf04XAxpdmKfBUivvWY4HoeoXifbnHZ5ZIMy7rXba4SAsayUt9Mq3VZdaPDWULDlklNd4rNxWoaQHN-e8LyYGKATOWhmUCQ57BbeCL12P37OfFMcm7HHRCAEIvU4MwVecweH5OPUE7PD4sO6XOyhF7TTwzbpwwHOGSGgsOlrBd60k5qPGMyD4s6uxbX8Boo6EsQ-V8h-4mNaxtwtBT8UnP81K3i_kHRM6PZQpJ6qFXcmpxWLJSPEzZzNd66BlrgGmW2csu5fonH52c_wP1CY602B9Fznov1wPYi025Plj-DBirf4Rr31oY-Sm1221Qip0ygDGyTnLJUzsvArAn_1P-dV-uaPunIFKiHn8HrOn-OAd_Rsql5fWX4_fYUzrBXySPDk5eIry0GgnKHqv1icDPro3yfd5awZ-rwm9V6CNNvrhOJ9u6Oq2ksUZ2ZEDuwZvvCEjeKmlE1_PbmoNzqZRSUThE8A3z-8kxP3oMF2OusGdOYFDTCQh4TGFUbAGvJdDlnu9a5Mi26iblFsJnzp6qw7R0Gb6JFthAsmSjpd=w884-h589-no" alt="">
-        <p class="descriptors">Kalpana Arora & Cody Pellom are happy to annouce they are getting married on December 24th, 2018! Find out more below!</p>
+        <img id="mainLanderImage" class="responsive-img" src="https://lh3.googleusercontent.com/Af0RR3w3PEsF8eIWOuKIAG4o1MY9KpvrlQMvibO095h4XEfx1K69Qa4xB-A_pIy9TbVj2_dHZQjuQm_Zk_pZ7FPswFt3nKLkO2RcX6M66i5sMuzDaf04XAxpdmKfBUivvWY4HoeoXifbnHZ5ZIMy7rXba4SAsayUt9Mq3VZdaPDWULDlklNd4rNxWoaQHN-e8LyYGKATOWhmUCQ57BbeCL12P37OfFMcm7HHRCAEIvU4MwVecweH5OPUE7PD4sO6XOyhF7TTwzbpwwHOGSGgsOlrBd60k5qPGMyD4s6uxbX8Boo6EsQ-V8h-4mNaxtwtBT8UnP81K3i_kHRM6PZQpJ6qFXcmpxWLJSPEzZzNd66BlrgGmW2csu5fonH52c_wP1CY602B9Fznov1wPYi025Plj-DBirf4Rr31oY-Sm1221Qip0ygDGyTnLJUzsvArAn_1P-dV-uaPunIFKiHn8HrOn-OAd_Rsql5fWX4_fYUzrBXySPDk5eIry0GgnKHqv1icDPro3yfd5awZ-rwm9V6CNNvrhOJ9u6Oq2ksUZ2ZEDuwZvvCEjeKmlE1_PbmoNzqZRSUThE8A3z-8kxP3oMF2OusGdOYFDTCQh4TGFUbAGvJdDlnu9a5Mi26iblFsJnzp6qw7R0Gb6JFthAsmSjpd=w884-h589-no"
+            alt="">
+        <p class="descriptors">Kalpana Arora & Cody Pellom are happy to annouce they are getting married on December
+            24th, 2018! Find out more below!</p>
     </div>
 
     <div id="aboutSection">
         <h3 class="headers">About Us</h3>
+        <p class="descriptors">Kalpana and Cody met in the summer of 2015. They started off as best friends and
+            eventually fell in love. They have been together ever since and decided to take their relationship to the
+            next level with marriage.</p>
         <h5 class="subHeaders" id="kalpanaAbout">Kalpana</h5>
-        <img class="circleImageLarge hvr-bounce-in" src="https://lh3.googleusercontent.com/SuguXeZwjTfRnJwGZwmRJvce0_v-7_LWrHOMyYp97JODlG6P8G0Xvsp7gFIKVQfFoYs6_pc8cRGCy2bffSQH60ijeyixQFik9ma6Kwmc9My4OV5c-joyETxRUMqlrZuHI8fcswMi4YuAUV6PFdinoApWBIneDSThcAvg28nAX4fJlpn8jd15yd_qcIVhOTrxS8T5reWMmGk4jXwXjrL_DwHHak7T1KC14XUaKuTOwOXxJOtEJhvER4dHpfuaAvnje73veVy1Y5vl2SY7EQps1-D9q8cjPavBtLvY-G1L9FW8XYvObKBcSUKuDY9Gkw2WuaFhs1msW42Ht7G20dRUEYrIEQyft5ORvvJ_YYAUB2H3GCYeZIjWPo_5yhPkLXqg1maC3aXgak3DHzp9cxbPSvbYfR0_aoUeYRrc_Ct5S07b0ApkFd9t5XnuGfN-YBTqkDTrugj_VjRzNgLrEUZHJo11C9pY18937jJI3FaQAAAZBRdOoas6emI3cdgS72BEv-0TpygmOcUNCtDplYD0z1rX9VOexsOvccWIuhbXCEqBiVcWZ-fRLNhJK2ygzztH41Ov1xV1ClbAo3r6p7z87uqoO4Izukp7XsQ-z8dalUhdM4TVhwzqhHZmu76UIaXyqpIZSMw5eREujVd_-eke6zx0=s539-no" alt="">
+        <img class="circleImageLarge hvr-bounce-in responsive-img" src="https://lh3.googleusercontent.com/SuguXeZwjTfRnJwGZwmRJvce0_v-7_LWrHOMyYp97JODlG6P8G0Xvsp7gFIKVQfFoYs6_pc8cRGCy2bffSQH60ijeyixQFik9ma6Kwmc9My4OV5c-joyETxRUMqlrZuHI8fcswMi4YuAUV6PFdinoApWBIneDSThcAvg28nAX4fJlpn8jd15yd_qcIVhOTrxS8T5reWMmGk4jXwXjrL_DwHHak7T1KC14XUaKuTOwOXxJOtEJhvER4dHpfuaAvnje73veVy1Y5vl2SY7EQps1-D9q8cjPavBtLvY-G1L9FW8XYvObKBcSUKuDY9Gkw2WuaFhs1msW42Ht7G20dRUEYrIEQyft5ORvvJ_YYAUB2H3GCYeZIjWPo_5yhPkLXqg1maC3aXgak3DHzp9cxbPSvbYfR0_aoUeYRrc_Ct5S07b0ApkFd9t5XnuGfN-YBTqkDTrugj_VjRzNgLrEUZHJo11C9pY18937jJI3FaQAAAZBRdOoas6emI3cdgS72BEv-0TpygmOcUNCtDplYD0z1rX9VOexsOvccWIuhbXCEqBiVcWZ-fRLNhJK2ygzztH41Ov1xV1ClbAo3r6p7z87uqoO4Izukp7XsQ-z8dalUhdM4TVhwzqhHZmu76UIaXyqpIZSMw5eREujVd_-eke6zx0=s539-no"
+            alt="">
         <p class="descriptors">Kalpana is a young professional who was originally born in Jordan. She currently resides
             in Atlanta, GA. Kalpana is an artist and a cook who loves to write and paint.</p>
         <h5 class="subHeaders">Cody</h5>
-        <img class="circleImageLarge hvr-bounce-in" src="https://lh3.googleusercontent.com/Zm5N5gKgI0n_J6DVkcqcxHBX3oNnBpcE306S8Bp9ZfxfHbjNyaxDsJtR1Gg6Bk5b8yp7tjPrTJk5L3XwFUFhlaS7GkeWpdkdrdsp6TzU20xQeYHr_PgXIKxfiOg3-Sk_PEPPHHuSmlNZ22m6zl58YrTWNMuQ2k2zqW9u8h6SShBMHu_IfCgliNUsRRzJHex63bEjimy9xCxTNU1U50m6B1IeNKPsfq5hfzCJXECW-tTajYHTDt8lzHmdvmBrB-MdxBpJDVgxjF_3y2YTGTeionENqAdBVrMU3auyeg2asd1fM84bjrd-m615oRFuXqQsNCKB-ftmkvcyCgQZkzF59Ywi1hsxNxoCxgKvD8wTQl5nEk4X6DASHgSpUMJx7ZPU95RYkADxOIvxeA88vFg7u50Vl7WX73tqiS2n-r_byIloYrKqqq_mdT6qjD2ftDENLyAZITDg3Ny_nxINK2V2LsrtItFwZ3SE28sI-9Wvzv65A4bYGpjahkC9UyF9dn7f_IiqTvFLhyyLUKwhqpXjEjbQUDxYnBAfXU76MmHZ3PLVtUFnoPQLLA85fI-QHtseLVo_5faX125vkbi9lFL17A-3hQn0TVKZkrohMPDh9YSztro_miXAjlvoTqvOKayqEXF94nh3xrUnpZiumc-wHejd=s539-no" alt="">
+        <img class="circleImageLarge hvr-bounce-in responsive-img" src="https://lh3.googleusercontent.com/Zm5N5gKgI0n_J6DVkcqcxHBX3oNnBpcE306S8Bp9ZfxfHbjNyaxDsJtR1Gg6Bk5b8yp7tjPrTJk5L3XwFUFhlaS7GkeWpdkdrdsp6TzU20xQeYHr_PgXIKxfiOg3-Sk_PEPPHHuSmlNZ22m6zl58YrTWNMuQ2k2zqW9u8h6SShBMHu_IfCgliNUsRRzJHex63bEjimy9xCxTNU1U50m6B1IeNKPsfq5hfzCJXECW-tTajYHTDt8lzHmdvmBrB-MdxBpJDVgxjF_3y2YTGTeionENqAdBVrMU3auyeg2asd1fM84bjrd-m615oRFuXqQsNCKB-ftmkvcyCgQZkzF59Ywi1hsxNxoCxgKvD8wTQl5nEk4X6DASHgSpUMJx7ZPU95RYkADxOIvxeA88vFg7u50Vl7WX73tqiS2n-r_byIloYrKqqq_mdT6qjD2ftDENLyAZITDg3Ny_nxINK2V2LsrtItFwZ3SE28sI-9Wvzv65A4bYGpjahkC9UyF9dn7f_IiqTvFLhyyLUKwhqpXjEjbQUDxYnBAfXU76MmHZ3PLVtUFnoPQLLA85fI-QHtseLVo_5faX125vkbi9lFL17A-3hQn0TVKZkrohMPDh9YSztro_miXAjlvoTqvOKayqEXF94nh3xrUnpZiumc-wHejd=s539-no"
+            alt="">
         <p class="descriptors">Cody is a software engineer and web developer originally from the north Georgia
             mountains. Cody is a musician and also enjoys cinema, writing and learning new recipes.</p>
     </div>
@@ -61,25 +70,27 @@
         <h3 class="headers">Join Us</h3>
         <div class="grid-container">
             <div class="grid-item">
-                <a href="https://goo.gl/maps/2EGbc21qc8L2"target="_blank">
-                    <img class="squareImage hvr-bob" src="https://lh3.googleusercontent.com/L4WxN05I7WBzFp79lGk38GmPYZ1DdqK8eO0JoH54Qs4OS2i1R6P_dreCNEPRMgmS8wCm7HTLH8dPo1Ia_du3VJZNB2r3tD2vhjjMZbM3h05L3971E-HwySdbR4ohjqsxYA-bwzY2enVLrpSNQxY-JVaBja7HXCtP2ltlRl31lSejIRVPYEyzuK3u02jlodio0R9Sj1IgCqQRgKhQmzrvT7q6lLfS-Gcs1_cbW7sHJSmrNuiwBCqwURnZT9be-QKtBzv_60l4wlRTTX3mVdfd7iuQGQAeoYH9oEomxnFEbp_nmgqopOjIKPbwPafkzypgdB8q_zz3TV37CRIQSmYAocGJHFbqpruyFo8LwD3XVrR3lRQ7sPRcVA1_fyCLe0dxsgg40BEi0Hf-ODrPTNOP1A3pIjjnHJWmsea_4UNT3YB9d74Ck1ids3dqyp9CvjmGAEPYIcBfXxxNsn0ChMuTnafV0448AdFOwyFzezvucXEX1abzuw07C6WthuQJu_gD1aVSqvqCLXwuxsYx7ab1UDGgOfIGEzM6XGqY8F5GjOrIZgk7ePQ7O5TfPpKTitCKGGeSkJZnvV6PIk1BUS0-dxM-5lu-Z0HSuZ8HfW2_sLNBumb3l6fHlnz_pBZhzNHBRL7BspM2hMBA_qDN_QOFNFAA=w350-h400-no" alt="">
+                <a href="https://goo.gl/maps/2EGbc21qc8L2" target="_blank">
+                    <img class="squareImage hvr-bob responsive-img" src="https://lh3.googleusercontent.com/L4WxN05I7WBzFp79lGk38GmPYZ1DdqK8eO0JoH54Qs4OS2i1R6P_dreCNEPRMgmS8wCm7HTLH8dPo1Ia_du3VJZNB2r3tD2vhjjMZbM3h05L3971E-HwySdbR4ohjqsxYA-bwzY2enVLrpSNQxY-JVaBja7HXCtP2ltlRl31lSejIRVPYEyzuK3u02jlodio0R9Sj1IgCqQRgKhQmzrvT7q6lLfS-Gcs1_cbW7sHJSmrNuiwBCqwURnZT9be-QKtBzv_60l4wlRTTX3mVdfd7iuQGQAeoYH9oEomxnFEbp_nmgqopOjIKPbwPafkzypgdB8q_zz3TV37CRIQSmYAocGJHFbqpruyFo8LwD3XVrR3lRQ7sPRcVA1_fyCLe0dxsgg40BEi0Hf-ODrPTNOP1A3pIjjnHJWmsea_4UNT3YB9d74Ck1ids3dqyp9CvjmGAEPYIcBfXxxNsn0ChMuTnafV0448AdFOwyFzezvucXEX1abzuw07C6WthuQJu_gD1aVSqvqCLXwuxsYx7ab1UDGgOfIGEzM6XGqY8F5GjOrIZgk7ePQ7O5TfPpKTitCKGGeSkJZnvV6PIk1BUS0-dxM-5lu-Z0HSuZ8HfW2_sLNBumb3l6fHlnz_pBZhzNHBRL7BspM2hMBA_qDN_QOFNFAA=w350-h400-no"
+                        alt="">
                 </a>
             </div>
             <div class="grid-item">
-            <a href="http://www.roseatehotels.com/newdelhi/theroseate/" target="_blank">
-            <div id="imageSwap" class="grid-item">
+                <a href="http://www.roseatehotels.com/newdelhi/theroseate/" target="_blank">
+                    <div id="imageSwap" class="grid-item responsive-img">
+                    </div>
+                </a>
             </div>
-        </a>
         </div>
+        <p class="descriptors">The wedding will be taking place on December 24th at The Roseate in New Delhi, India.
+            Join us for food, fun and dancing! </p>
     </div>
-    <p class="descriptors">The wedding will be taking place on December 24th at The Roseate in New Delhi, India.
-        Join us for food, fun and dancing! </p>
-</div>
 
     <div id="contributeSection">
         <h3 class="headers">Contribute</h3>
         <a href="https://www.paypal.me/PaulPellom" target="_blank">
-            <img id="contributeImg" class="hvr-buzz-out" src="https://lh3.googleusercontent.com/v5pkoEhdVlv_AnEgGFP08ue5DHfbRVuogetq5BxRKYMcmVg6WGUVIiPUhByiFTKTrVFrUcdeDkXNqLSbFzd58y1fd0jLag3h_dPaS6itho-oDC9UTh9LwF8nshi24ngaIepnahvMkrG2sT-h0llYg5Zg6tYDDdW0O7q-EjRL5ZE-QhOA_TSg7qMu-uSBI3TMldPHaPuc1zx-0jPpuf3LwDpoScedufH_3gvG35vb7FA3TZ4ZunJ9rzhgbZIUjV8DxIcdOlQupBijdTxbzUbpPxJw0UmJqcn1Je-Jqa2kVqwRqigQ1xNElTOyoU6sHTTisU3-74Mvap949Mrr3LEP0-D4PyX8L7680skxMax_aTufUYMUS9OnvF-ZE8_sgTDYq-wdZSVKCpcRuZOeu1Ie7rB25EL5jXC9hCkzvuli8vLnSQfOxeKo66KwFXWKWgz1doth3wMXGivVxYxFzp0Uqz3uOoCidpovgYxTGuEoy_JRLHwoaHJdAELAPHj3ahTHG5nd17uyZwREMm_f23i08ko4n4iah-c_k7GBPo6825zRA6FVQf0YoXTWfXyNAv6imhP92jgZVshXuDfA_WOzE5R3EX4PXoEdYlOPt2LaCkih3nTeeutu6OMlZC4RJXfN9UyybVAAAfy9XHTJgVWwbNri=w304-h539-no" alt="">
+            <img id="contributeImg" class="hvr-buzz-out responsive-img" src="https://lh3.googleusercontent.com/v5pkoEhdVlv_AnEgGFP08ue5DHfbRVuogetq5BxRKYMcmVg6WGUVIiPUhByiFTKTrVFrUcdeDkXNqLSbFzd58y1fd0jLag3h_dPaS6itho-oDC9UTh9LwF8nshi24ngaIepnahvMkrG2sT-h0llYg5Zg6tYDDdW0O7q-EjRL5ZE-QhOA_TSg7qMu-uSBI3TMldPHaPuc1zx-0jPpuf3LwDpoScedufH_3gvG35vb7FA3TZ4ZunJ9rzhgbZIUjV8DxIcdOlQupBijdTxbzUbpPxJw0UmJqcn1Je-Jqa2kVqwRqigQ1xNElTOyoU6sHTTisU3-74Mvap949Mrr3LEP0-D4PyX8L7680skxMax_aTufUYMUS9OnvF-ZE8_sgTDYq-wdZSVKCpcRuZOeu1Ie7rB25EL5jXC9hCkzvuli8vLnSQfOxeKo66KwFXWKWgz1doth3wMXGivVxYxFzp0Uqz3uOoCidpovgYxTGuEoy_JRLHwoaHJdAELAPHj3ahTHG5nd17uyZwREMm_f23i08ko4n4iah-c_k7GBPo6825zRA6FVQf0YoXTWfXyNAv6imhP92jgZVshXuDfA_WOzE5R3EX4PXoEdYlOPt2LaCkih3nTeeutu6OMlZC4RJXfN9UyybVAAAfy9XHTJgVWwbNri=w304-h539-no"
+                alt="">
         </a>
         <p class="descriptors">In lieu of a wedding registry, the bride and groom are currently accepting
             contributions. Any contributions will be used for wedding expenses and creating a more memorable experience
@@ -93,11 +104,12 @@
             are just a few of the people who are near and dear to the bride and groom!</p>
         <div class="grid-container">
 
-            <div  class="grid-item">
+            <div class="grid-item">
                 <div class="flexer">
                     <h5 id="kunal" class=subHeaders>Kunal</h5>
                     <a href="https://www.instagram.com/kunalarora97/" target="_blank">
-                        <img id="kunal" class="littleCircleImage hvr-bounce-in" src="https://lh3.googleusercontent.com/h3ntbMHxcYHaxmkobg4TFZvv1kTlF0FR8dj26UmqB3yOrWPSIf44fcSd8WilJq1mG8n0qFI-N-I1-hRKzAAiyRiwXT1za0Flz-ZTNfDtI4yZwQ-YLdsUy4X_GT7i3xUEH4lTqD9eZHiLK9JrPr-5H_cas-e_yxX7vkhN5Muh30agtpNjU47D3wyNwaxcOLOQgKFbcH8B_Ep-1b_UG804ZIaNdNQBNK9t-NMir23bQ3EKxNs-rSKcJ7sTYkhqSrRDyM3zu6DfPysf1PM51KiOf8K61uojywXZiCltLBiXgpOQE7GPs1e8vadeUxIAyANxlWJJoznov11EWxDH1Th72jpEHSCNygOhED63tEwa_vo8H2CKkMDEaWOFQNS2D9e-_1Qg8RnElnBfBG8_GQFkIGYjtP60C7Mye0GbH_vW_nVAwT6bjwVo8qtDlvIxBUKyWhayCt3spGI_bLM8YIqE2ZwoEgbMzYO71D3bx634w4ri_Pz8UTv9tlfK94ZK6QBw104aSLNmcxuGQfE3Na2O_PKYK1i5QkuiXmz816eDM51-isIOJJK3HZDKzWvzjwQo8Depbb5jZtkiKsmGU8YE1qCBGWoNEMkhT821ftbpGInQuUn7YJph5RJwsyPdzIj2CHZrf4XVVGgto0VgqPFQoM9k=w378-h334-no" alt="">
+                        <img id="kunal" class="littleCircleImage hvr-bounce-in responsive-img" src="https://lh3.googleusercontent.com/h3ntbMHxcYHaxmkobg4TFZvv1kTlF0FR8dj26UmqB3yOrWPSIf44fcSd8WilJq1mG8n0qFI-N-I1-hRKzAAiyRiwXT1za0Flz-ZTNfDtI4yZwQ-YLdsUy4X_GT7i3xUEH4lTqD9eZHiLK9JrPr-5H_cas-e_yxX7vkhN5Muh30agtpNjU47D3wyNwaxcOLOQgKFbcH8B_Ep-1b_UG804ZIaNdNQBNK9t-NMir23bQ3EKxNs-rSKcJ7sTYkhqSrRDyM3zu6DfPysf1PM51KiOf8K61uojywXZiCltLBiXgpOQE7GPs1e8vadeUxIAyANxlWJJoznov11EWxDH1Th72jpEHSCNygOhED63tEwa_vo8H2CKkMDEaWOFQNS2D9e-_1Qg8RnElnBfBG8_GQFkIGYjtP60C7Mye0GbH_vW_nVAwT6bjwVo8qtDlvIxBUKyWhayCt3spGI_bLM8YIqE2ZwoEgbMzYO71D3bx634w4ri_Pz8UTv9tlfK94ZK6QBw104aSLNmcxuGQfE3Na2O_PKYK1i5QkuiXmz816eDM51-isIOJJK3HZDKzWvzjwQo8Depbb5jZtkiKsmGU8YE1qCBGWoNEMkhT821ftbpGInQuUn7YJph5RJwsyPdzIj2CHZrf4XVVGgto0VgqPFQoM9k=w378-h334-no"
+                            alt="">
                     </a>
                 </div>
             </div>
@@ -106,7 +118,8 @@
                 <div class="flexer">
                     <h5 class=subHeaders>Neelima & Rupesh</h5>
                     <a href="https://www.facebook.com/profile.php?id=547569991" target="_blank">
-                        <img class="littleCircleImage hvr-bounce-in" src="https://lh3.googleusercontent.com/EkuzDYOWEy1K5NBoOnsf-2vPIAuqq-OoNzgh4Xw_aLPWEyFZrA5Wxo3EhuSrO_X3CJjlJhXPaFSuwSYcZOq4KZm5L55ViuuVanq18Ubv_cT3S9nLiXVnO2gArkT4JN_I5BELQn34rq0XMZLZqZfoEcuiUG4IszitpCNepmfvJecFaZXzp8y7ZGUf62HAm9R6fFBSHx2nnZ30f8PNJLYkHu_ZHOa0wFkS6_YbvCRvXBBUWW9g8VVPPdJ4bcHd6XI3MGbFLJoMc8B7Ffe1mWpwjIyr6-D1aiADIZybMFV4z6WXX32x-_AE7JeDJJSlh2Qk0ub9DpxQEKZN6V7rhIOt2ky_uCshEaV7_ZVWpZ3luX4fuEk0odRbqnnta397ERLRDmrsz7eOsqCHDpU1JuWKonJ5QzJyMLU5GtqbRysPlP67ykNIH2a02fzO_3SD_2GKOri6ZSI4bbq5P8hKzJps2bUohfdIcvzlhIzWuO_-tjL7MVkBvdpqdm2wuTu_xd0ptOg_QmNKCi2b7ttjjfb8RkCkugZsH7kGKmSleBOx0CzeaTDYlHODrrXzi6e7B472azhr7zYWKIDWS2hYMpyqDdrJgYvhGZsKzPJYbJvNwOEGfR5yS0nQcrGUnAMR8qq2B-oOZb4uhOtabGcm8M2sb9z1=w594-h489-no" alt="">
+                        <img class="littleCircleImage hvr-bounce-in responsive-img" src="https://lh3.googleusercontent.com/EkuzDYOWEy1K5NBoOnsf-2vPIAuqq-OoNzgh4Xw_aLPWEyFZrA5Wxo3EhuSrO_X3CJjlJhXPaFSuwSYcZOq4KZm5L55ViuuVanq18Ubv_cT3S9nLiXVnO2gArkT4JN_I5BELQn34rq0XMZLZqZfoEcuiUG4IszitpCNepmfvJecFaZXzp8y7ZGUf62HAm9R6fFBSHx2nnZ30f8PNJLYkHu_ZHOa0wFkS6_YbvCRvXBBUWW9g8VVPPdJ4bcHd6XI3MGbFLJoMc8B7Ffe1mWpwjIyr6-D1aiADIZybMFV4z6WXX32x-_AE7JeDJJSlh2Qk0ub9DpxQEKZN6V7rhIOt2ky_uCshEaV7_ZVWpZ3luX4fuEk0odRbqnnta397ERLRDmrsz7eOsqCHDpU1JuWKonJ5QzJyMLU5GtqbRysPlP67ykNIH2a02fzO_3SD_2GKOri6ZSI4bbq5P8hKzJps2bUohfdIcvzlhIzWuO_-tjL7MVkBvdpqdm2wuTu_xd0ptOg_QmNKCi2b7ttjjfb8RkCkugZsH7kGKmSleBOx0CzeaTDYlHODrrXzi6e7B472azhr7zYWKIDWS2hYMpyqDdrJgYvhGZsKzPJYbJvNwOEGfR5yS0nQcrGUnAMR8qq2B-oOZb4uhOtabGcm8M2sb9z1=w594-h489-no"
+                            alt="">
                     </a>
                 </div>
             </div>
@@ -115,15 +128,17 @@
             <div class="grid-item">
                 <div class="flexer">
                     <h5 class=subHeaders>Parshotam & Shashi</h5>
-                    <img class="littleCircleImage hvr-bounce-in" src="https://lh3.googleusercontent.com/iMNnFN656_IDSof90bTNidPOopAlT1CzFHwPwerzhV11KLQcwaaMoFPr_PVkblvksGPwuzFEVTn999bL1ks0TTvJQwYvEoOoHckQ4W0jFuJOs6_Zo3sUNX9_6wi9GvK6EctiJUdmT0qyPs4VPrCd0yG4CEc_8sBFkc2yK8ANXRTOR4DzZtyPLjbYhX2q-O32VVZOEcAqlhtsMyHNWSyb32GwwAq--HzXlICxoshvauP2K3SxVla_ji4hckf50Bes94om27rzKTEkQWrLjWkq9cfYG3TwuFx2D1e8rtjkNLZIB_f5lU4Tj5EPSMoptFDFIZAv62iTrKXiPrIerehyCC6KbAUachIrzdSChUvlzqFOeAyyYq9Mk7Q41LxCCf0nE1ttqgOP5wuTwUGRJyhiAvzTslBhVgZ424cvhQ0Kqo5vugSv3Xnaojxzw0LJLEoheou0EpHZy90VWng0cPiJT7BL8D9SA0fB5aD2R_Ss-PgY9A01LPYYRRFpDqsoFryXeXuIyV3JlNUfWD43T4ZYiRJ2d3KIicYurUFDfw3DUPUTXh5nE-9PMS_YJW2oFAIxIK1Df1zEodJ53KWqlhiTbByfANWEc_f76ETFXbHAPcbZcAWxQutoJsi-PFNGUJxRPwxzYqaSBDohssYTTBlV98-M=w205-h198-no" alt="">
+                    <img class="littleCircleImage hvr-bounce-in responsive-img" src="https://lh3.googleusercontent.com/iMNnFN656_IDSof90bTNidPOopAlT1CzFHwPwerzhV11KLQcwaaMoFPr_PVkblvksGPwuzFEVTn999bL1ks0TTvJQwYvEoOoHckQ4W0jFuJOs6_Zo3sUNX9_6wi9GvK6EctiJUdmT0qyPs4VPrCd0yG4CEc_8sBFkc2yK8ANXRTOR4DzZtyPLjbYhX2q-O32VVZOEcAqlhtsMyHNWSyb32GwwAq--HzXlICxoshvauP2K3SxVla_ji4hckf50Bes94om27rzKTEkQWrLjWkq9cfYG3TwuFx2D1e8rtjkNLZIB_f5lU4Tj5EPSMoptFDFIZAv62iTrKXiPrIerehyCC6KbAUachIrzdSChUvlzqFOeAyyYq9Mk7Q41LxCCf0nE1ttqgOP5wuTwUGRJyhiAvzTslBhVgZ424cvhQ0Kqo5vugSv3Xnaojxzw0LJLEoheou0EpHZy90VWng0cPiJT7BL8D9SA0fB5aD2R_Ss-PgY9A01LPYYRRFpDqsoFryXeXuIyV3JlNUfWD43T4ZYiRJ2d3KIicYurUFDfw3DUPUTXh5nE-9PMS_YJW2oFAIxIK1Df1zEodJ53KWqlhiTbByfANWEc_f76ETFXbHAPcbZcAWxQutoJsi-PFNGUJxRPwxzYqaSBDohssYTTBlV98-M=w205-h198-no"
+                        alt="">
                 </div>
             </div>
             <div class="grid-item">
                 <div class="flexer">
                     <h5 class=subHeaders>Rithika</h5>
-                    <a href="https://www.linkedin.com/in/rithikag/">
-                    <img class="littleCircleImage hvr-bounce-in " src="https://lh3.googleusercontent.com/PYE0EFoyhBalOvlA64Ab1foJ0soIcJPSUWqhP3eCtPJNNjzax4RwJEemYOy6tAYF0FKndY5FRcX2RxH3vFi068wsbByIn9yxUIX-m3fWRa0sJ6PnPe9KW_qpxLrtTkdAuJxnPitMBazmhba0uJp_SX9EWH6mxfkTIM2AaHitTTEToX8MxGJiQtESsXnr4CwPAhxacKeCxcBPENdM1id7yzUP_nttYp85A6PgDQLyYI3e7hmbzzx_OuVprbm4pNLuj0Sm6wopLXCb-JY2-vt_eZsxn2LIHaLWyKRfY9ANn5Ttp1x3wQURZCEKit6_cmcD02mtJIYvTThGJFSmZtB3j5EloCxupUJ__RSBku6dT_8S_fcGPqSOBHBzGvzg3_BJ1EOdaPJlGMmqOLRfYdXFaiMhwlOdEOD8jqeBPgQBalmW2gRpeQkudMfu8m4Hx53dZXLTndWp0RwYCMGbJ3IvtNY7wYWodUppb80DwOiXGFIQIKYBHj3Traj-8m9w6jlE5gdCzyVPrpThSEaiI7s7ToXAkKwyuO3HnsNKT1bg5hL5UmLSve495IpDwJ2t0JY1brxrwxFxpH5QWMl2M0O1i7qXEOe8rNUvGwxQ1_3NR2Zz5Ab6tTHlknA_4M8NARVsKJUTs2e6NA-TTN39V8JgNdev=s295-no" alt="">
-                </a>
+                    <a href="https://www.linkedin.com/in/rithikag/" target="_blank">
+                        <img class="littleCircleImage hvr-bounce-in responsive-img" src="https://lh3.googleusercontent.com/PYE0EFoyhBalOvlA64Ab1foJ0soIcJPSUWqhP3eCtPJNNjzax4RwJEemYOy6tAYF0FKndY5FRcX2RxH3vFi068wsbByIn9yxUIX-m3fWRa0sJ6PnPe9KW_qpxLrtTkdAuJxnPitMBazmhba0uJp_SX9EWH6mxfkTIM2AaHitTTEToX8MxGJiQtESsXnr4CwPAhxacKeCxcBPENdM1id7yzUP_nttYp85A6PgDQLyYI3e7hmbzzx_OuVprbm4pNLuj0Sm6wopLXCb-JY2-vt_eZsxn2LIHaLWyKRfY9ANn5Ttp1x3wQURZCEKit6_cmcD02mtJIYvTThGJFSmZtB3j5EloCxupUJ__RSBku6dT_8S_fcGPqSOBHBzGvzg3_BJ1EOdaPJlGMmqOLRfYdXFaiMhwlOdEOD8jqeBPgQBalmW2gRpeQkudMfu8m4Hx53dZXLTndWp0RwYCMGbJ3IvtNY7wYWodUppb80DwOiXGFIQIKYBHj3Traj-8m9w6jlE5gdCzyVPrpThSEaiI7s7ToXAkKwyuO3HnsNKT1bg5hL5UmLSve495IpDwJ2t0JY1brxrwxFxpH5QWMl2M0O1i7qXEOe8rNUvGwxQ1_3NR2Zz5Ab6tTHlknA_4M8NARVsKJUTs2e6NA-TTN39V8JgNdev=s295-no"
+                            alt="">
+                    </a>
                 </div>
             </div>
         </div>
@@ -141,7 +156,8 @@
             <!-- Full-width images with number and caption text -->
             <div class="mySlides fade">
                 <div id="blackText" class="numbertext">1 / 9</div>
-                <img src="https://lh3.googleusercontent.com/LbGb0SYyKJt1H1QkrCRV3J5fdUV1nAPC-1biI_ldXEYUWIALlDwwGUhqHmWce-4gdCY9k_J7akr8N-jj_H6ECctmc6FUo9MmcVxAEi78xOy9dqb7A5lo83SGX3rt6FFYc7BH2mVv4PQsPxuar8XFU62Rr5jUzTxvuE72NB7m1q47HXko_L6XzcdICjxSFpEzNMOeaMsYwbGVgecYa0-2fYMxWw4z20BsQzuk5MdjxkncU6_iG6Me-gQ7bxAo5AaOelJifzxPlofeoI8XbPyvhCwNOf4GLr4CFwYR9-eSCo1A2uqJccpPR9xkMEaOkA6tBTBWIHm9aiy2LKffYpbMCFsZoLC-y1altjGD95ChHLaFve8V_5xu7HlTXMoGHzmpoI5Nba0-AEe8XAJWFBkOICamyTAS4yagqep4uk0adzOaYQD3JwxVFLzqNMz_pY5yuwL6ZFSlB7OGV0xiH-hIlQd3MVIx9Ek806IdHmRluiFKJFaiuXRPsDeQJC6zfUXgeAcDAjYSWHuizDi_abqH7sAXy8etby6dxpMe0KUbb3xk44cPLGoDyvXXe9A2ADc4tqwcQ4vz80BYFKStoycicCDsMFmRfmvinirGSuov6HWHrc4pqntO1y6j8291omhImgD9-8TAz3JXNQ73bU5yf0k2=w884-h589-no" style="width:100%">
+                <img class="responsive-img" src="https://lh3.googleusercontent.com/LbGb0SYyKJt1H1QkrCRV3J5fdUV1nAPC-1biI_ldXEYUWIALlDwwGUhqHmWce-4gdCY9k_J7akr8N-jj_H6ECctmc6FUo9MmcVxAEi78xOy9dqb7A5lo83SGX3rt6FFYc7BH2mVv4PQsPxuar8XFU62Rr5jUzTxvuE72NB7m1q47HXko_L6XzcdICjxSFpEzNMOeaMsYwbGVgecYa0-2fYMxWw4z20BsQzuk5MdjxkncU6_iG6Me-gQ7bxAo5AaOelJifzxPlofeoI8XbPyvhCwNOf4GLr4CFwYR9-eSCo1A2uqJccpPR9xkMEaOkA6tBTBWIHm9aiy2LKffYpbMCFsZoLC-y1altjGD95ChHLaFve8V_5xu7HlTXMoGHzmpoI5Nba0-AEe8XAJWFBkOICamyTAS4yagqep4uk0adzOaYQD3JwxVFLzqNMz_pY5yuwL6ZFSlB7OGV0xiH-hIlQd3MVIx9Ek806IdHmRluiFKJFaiuXRPsDeQJC6zfUXgeAcDAjYSWHuizDi_abqH7sAXy8etby6dxpMe0KUbb3xk44cPLGoDyvXXe9A2ADc4tqwcQ4vz80BYFKStoycicCDsMFmRfmvinirGSuov6HWHrc4pqntO1y6j8291omhImgD9-8TAz3JXNQ73bU5yf0k2=w884-h589-no"
+                    style="width:100%">
                 <a href="https://www.facebook.com/melissartieda" target="_blank">
                     <div id="blackText" class="text">Savannah Georgia! (Photo by Meli Artieda)</div>
                 </a>
@@ -149,7 +165,8 @@
 
             <div class="mySlides fade">
                 <div class="numbertext">2 / 9</div>
-                <img src="https://lh3.googleusercontent.com/-r60mmwLK750SUYJsI9KkJZzfPREw5ONucn8PGKTa5-H2LCQibrf6udPWQ-YRODr9Jti3BFnGOaYLDeLr7BfZBMjf4fHnMdFBWswdBDhS8VXzkGdHLPVJL1We5F0UQ1DgPhRfa7JFnqs5wsZaSK2Smyf1bYD5xvPJzKYX_FJRNAZRKooaZ6Fh1h3aTkbEzSWZnrJx3PGw5GwiZV4pjnh7afrZcmfWc0XNbLEcPuDP02m7wvoIC3JcN1Wr2zU4u0_WRdOox8IwmVJ7JFwuHERgSwtrAe_pX9E9IF9qoLrpItWkvvSQ9-A71Q12eyumX6a5ACKBFAFJmSI3nawQSxxw1bGmmIfavXW46wMN8PHcltWGMCzPukcd7DQF530YuTSg62ozEOr3iCZvLNuYfTRTVU-zgsyhB1OhIFdol8j1qvWjUAx-7kNEh3CJrrL1CvuK7-eMhaIu-IfmhzvMyVCn4Uyav4H2SWEZMT3Ut7BOIm0Eea0HoAghSLoXlgC1AxF77foyxrCW-ZupEFIMZp_UCG3upo_JNCGRFXHwHfnfs8mLp0Y2N-gY6qwQr_SHx6GrhwXZpcSxbSQwIFKsq6-yWeYmlZvVS6lUTziZDoy7n83kiQ8JkIJYAcXQcADqMUfapyEeq1vkiygo3Rh3LaQ2DYL=w702-h468-no" style="width:100%">
+                <img class="responsive-img" src="https://lh3.googleusercontent.com/-r60mmwLK750SUYJsI9KkJZzfPREw5ONucn8PGKTa5-H2LCQibrf6udPWQ-YRODr9Jti3BFnGOaYLDeLr7BfZBMjf4fHnMdFBWswdBDhS8VXzkGdHLPVJL1We5F0UQ1DgPhRfa7JFnqs5wsZaSK2Smyf1bYD5xvPJzKYX_FJRNAZRKooaZ6Fh1h3aTkbEzSWZnrJx3PGw5GwiZV4pjnh7afrZcmfWc0XNbLEcPuDP02m7wvoIC3JcN1Wr2zU4u0_WRdOox8IwmVJ7JFwuHERgSwtrAe_pX9E9IF9qoLrpItWkvvSQ9-A71Q12eyumX6a5ACKBFAFJmSI3nawQSxxw1bGmmIfavXW46wMN8PHcltWGMCzPukcd7DQF530YuTSg62ozEOr3iCZvLNuYfTRTVU-zgsyhB1OhIFdol8j1qvWjUAx-7kNEh3CJrrL1CvuK7-eMhaIu-IfmhzvMyVCn4Uyav4H2SWEZMT3Ut7BOIm0Eea0HoAghSLoXlgC1AxF77foyxrCW-ZupEFIMZp_UCG3upo_JNCGRFXHwHfnfs8mLp0Y2N-gY6qwQr_SHx6GrhwXZpcSxbSQwIFKsq6-yWeYmlZvVS6lUTziZDoy7n83kiQ8JkIJYAcXQcADqMUfapyEeq1vkiygo3Rh3LaQ2DYL=w702-h468-no"
+                    style="width:100%">
                 <a href="https://www.facebook.com/melissartieda" target="_blank">
                     <div class="text">Photo by Meli Artieda</div>
                 </a>
@@ -157,7 +174,8 @@
 
             <div class="mySlides fade">
                 <div class="numbertext">3 / 9</div>
-                <img src="https://lh3.googleusercontent.com/GhL4kEgqaiLBuL-0rPLGaOrdJ4NdMij5jXOrfftRQF0vzC_q7y5V_Fmdxq_mVOeS_cRyAm5PkfylHzm2YVA_RGsPI22aMOpeVhiRGd-WbMtiqEKmKikKq4AhR0jNPwSzZ7MblI2idoJuqJQ-UY6YWZ8atBouYHSgojn91rTtTcpWyogRztn7sMXXELYZV_OSgP_jcnHTuidjX_UfPYwkimi3gA4KYEZ7RzOxQscM0UYEnKK0FiOjHBHL7CWf6n-5201JzCN_EKpvwjmtLLo-JfClH9dnV66GTssath6V0ju6vNDWx1C20-x73hfB7Z1Cs0Oh8KzPZpfvybuYfazlo1AdDDYDfgLIT6tMZ1wy7ggNJhqb3rAVzP2CilvUehRfAxTarWqalzsu-B31G6eurVCq1k6X-d5XPl7vFdFwhOGRx3UXKwePBa55jP86bHHxBNlQTh2Qa5HzrpmwxQhU-lYy4YQftS8svNY2gjXDUnzXR3D9NcPEGz4jo5eu2MukpaWeckJvx9GLZqWaom_dQvbXCyEqBg9TYSryteWPzGkWFt19j46nMzo5rYDWClpmZUF40kdRrHO2C0ZGot7S9qT3w2C8oN4XLZLx24j7yaxUdujnDMETRf7A9zi175y2J3NNxc1mOmj6mhXHqfjUH5nh=w702-h468-no" style="width:100%">
+                <img class="responsive-img" src="https://lh3.googleusercontent.com/GhL4kEgqaiLBuL-0rPLGaOrdJ4NdMij5jXOrfftRQF0vzC_q7y5V_Fmdxq_mVOeS_cRyAm5PkfylHzm2YVA_RGsPI22aMOpeVhiRGd-WbMtiqEKmKikKq4AhR0jNPwSzZ7MblI2idoJuqJQ-UY6YWZ8atBouYHSgojn91rTtTcpWyogRztn7sMXXELYZV_OSgP_jcnHTuidjX_UfPYwkimi3gA4KYEZ7RzOxQscM0UYEnKK0FiOjHBHL7CWf6n-5201JzCN_EKpvwjmtLLo-JfClH9dnV66GTssath6V0ju6vNDWx1C20-x73hfB7Z1Cs0Oh8KzPZpfvybuYfazlo1AdDDYDfgLIT6tMZ1wy7ggNJhqb3rAVzP2CilvUehRfAxTarWqalzsu-B31G6eurVCq1k6X-d5XPl7vFdFwhOGRx3UXKwePBa55jP86bHHxBNlQTh2Qa5HzrpmwxQhU-lYy4YQftS8svNY2gjXDUnzXR3D9NcPEGz4jo5eu2MukpaWeckJvx9GLZqWaom_dQvbXCyEqBg9TYSryteWPzGkWFt19j46nMzo5rYDWClpmZUF40kdRrHO2C0ZGot7S9qT3w2C8oN4XLZLx24j7yaxUdujnDMETRf7A9zi175y2J3NNxc1mOmj6mhXHqfjUH5nh=w702-h468-no"
+                    style="width:100%">
                 <a href="https://www.facebook.com/melissartieda" target="_blank">
                     <div class="text">Savannah Georgia! (Photo by Meli Artieda)</div>
                 </a>
@@ -165,7 +183,8 @@
 
             <div class="mySlides fade">
                 <div class="numbertext">4 / 9</div>
-                <img src="https://lh3.googleusercontent.com/tqagy4aDZ-LK6dza15DE4XaUz4F1raB2fBqnFZHNxoJnFPtkX5P66WpBMxsiflwMkhWzqFiR4Lrk4xXuhsJ_KSDkrETWq6F8ZRmJdXcBUfeHSlqKmbIwQDMI8c2OhuAVYJyOZdAfv0iPtHLDW6JDVlkC03u4_zq41MDYGUnVuTCTkhJksbFgqJ4E8RQB0fkmRNqWcBwsUvhhYjr_6qfGNiP-giEoRv0CrW0koxKBQeKDs6Cegjg4-ckSIWm9RgLDvyNRJt77BcQYI4OOafnuQ2TCibZLzvz31ZyCWFtowpOTaI8THfb_pytta5-9tVjH3I-4RdLTyihbdpleW-0st7g0SEvQh13dxBwPUN27d5DG_kMfHOgSeM5Za7jkqwat4nu6DLojNzuO-yDnVxLBGBirKpgr-I89SshBNxtrlTPlQFoSz9IWsG_Vcg_Zehm6cfrNq5Rx5gXoBTQG8kOQyzPRqf3LFlH5QO5th1u-s8Sy3zLIIuhtMowH0S6U6HfD6ErucSI_VnwQuWdzIuAr1CFguuskL1Xh-ArLdmPzLLrXpGNdhWBCKDPFngQUd9CEl7xqedZrkKG4iJKMuUOz56Jk7dKDq-mkBPx6UDRBYbMVs_2IiFHa5jeKpco28FCkkZ4xjX9m75tgOQzzCRx1G0wk=w702-h468-no" style="width:100%">
+                <img class="responsive-img" src="https://lh3.googleusercontent.com/tqagy4aDZ-LK6dza15DE4XaUz4F1raB2fBqnFZHNxoJnFPtkX5P66WpBMxsiflwMkhWzqFiR4Lrk4xXuhsJ_KSDkrETWq6F8ZRmJdXcBUfeHSlqKmbIwQDMI8c2OhuAVYJyOZdAfv0iPtHLDW6JDVlkC03u4_zq41MDYGUnVuTCTkhJksbFgqJ4E8RQB0fkmRNqWcBwsUvhhYjr_6qfGNiP-giEoRv0CrW0koxKBQeKDs6Cegjg4-ckSIWm9RgLDvyNRJt77BcQYI4OOafnuQ2TCibZLzvz31ZyCWFtowpOTaI8THfb_pytta5-9tVjH3I-4RdLTyihbdpleW-0st7g0SEvQh13dxBwPUN27d5DG_kMfHOgSeM5Za7jkqwat4nu6DLojNzuO-yDnVxLBGBirKpgr-I89SshBNxtrlTPlQFoSz9IWsG_Vcg_Zehm6cfrNq5Rx5gXoBTQG8kOQyzPRqf3LFlH5QO5th1u-s8Sy3zLIIuhtMowH0S6U6HfD6ErucSI_VnwQuWdzIuAr1CFguuskL1Xh-ArLdmPzLLrXpGNdhWBCKDPFngQUd9CEl7xqedZrkKG4iJKMuUOz56Jk7dKDq-mkBPx6UDRBYbMVs_2IiFHa5jeKpco28FCkkZ4xjX9m75tgOQzzCRx1G0wk=w702-h468-no"
+                    style="width:100%">
                 <a href="https://www.facebook.com/melissartieda" target="_blank">
                     <div class="text">Savannah Georgia! (Photo by Meli Artieda)</div>
                 </a>
@@ -173,7 +192,8 @@
 
             <div class="mySlides fade">
                 <div class="numbertext">5 / 9</div>
-                <img src="https://lh3.googleusercontent.com/v8pO37aS5R8bgPpxfcAMcRZXk86MrY2Yws7G6AnJMecJlzWpDQQ9TBdLYrU0XIuF6TsqgNP3hNS44AJu255XQFSwlcJP93IYdtPzTcexqo0X-09CrRfyEy1WXy3XxSlqx8_68jMol8-4zmec3YrZvbSFMI0satITByZYP8O5YU2jBhUjYl4c9X_YSGFCH922za0YiXij2HSQ0KhVzuXoK5BuaoDeS8hvk_vAycb9veRYpIFb4meb1JmntXG_q9AJlgcPHphUm9YipKLAkZR4X_PeIqsG-ISUX0NGgcZmUpPLcENxJU8EyGo_ShriLfFehanIk38e-xQPx2GRAkGEnVwv7ICFG_8jdQwSx_sRScTqemlyGNE7cg6UK3d63V4491fkuqYVnY0PccgmVyXiLmxZv2aIbj__NsJukSo_Z8LhShV9RestNVfzIJIa0io7xnNskdUM1_bwwJuVtl0W7GlHG0zMjvAn92yi672upuMQSuCS6wkal9abLVsJCFIIZ6jE6SfrTIKgqVoMkOugVi2V-QbFLrLvZ1gdWBNJ_OxJXBrezKuPf-7NWSv7UOYs40yG843PqNdg0-B4GAgrUWlwc0r7XmcOEwItzGjhN3afnFExjmS06ihNh7_sGooqNWj71dF-iPYgr7AHA3jyYphV=w702-h468-no" style="width:100%">
+                <img class="responsive-img" src="https://lh3.googleusercontent.com/v8pO37aS5R8bgPpxfcAMcRZXk86MrY2Yws7G6AnJMecJlzWpDQQ9TBdLYrU0XIuF6TsqgNP3hNS44AJu255XQFSwlcJP93IYdtPzTcexqo0X-09CrRfyEy1WXy3XxSlqx8_68jMol8-4zmec3YrZvbSFMI0satITByZYP8O5YU2jBhUjYl4c9X_YSGFCH922za0YiXij2HSQ0KhVzuXoK5BuaoDeS8hvk_vAycb9veRYpIFb4meb1JmntXG_q9AJlgcPHphUm9YipKLAkZR4X_PeIqsG-ISUX0NGgcZmUpPLcENxJU8EyGo_ShriLfFehanIk38e-xQPx2GRAkGEnVwv7ICFG_8jdQwSx_sRScTqemlyGNE7cg6UK3d63V4491fkuqYVnY0PccgmVyXiLmxZv2aIbj__NsJukSo_Z8LhShV9RestNVfzIJIa0io7xnNskdUM1_bwwJuVtl0W7GlHG0zMjvAn92yi672upuMQSuCS6wkal9abLVsJCFIIZ6jE6SfrTIKgqVoMkOugVi2V-QbFLrLvZ1gdWBNJ_OxJXBrezKuPf-7NWSv7UOYs40yG843PqNdg0-B4GAgrUWlwc0r7XmcOEwItzGjhN3afnFExjmS06ihNh7_sGooqNWj71dF-iPYgr7AHA3jyYphV=w702-h468-no"
+                    style="width:100%">
                 <a href="https://www.facebook.com/melissartieda" target="_blank">
                     <div class="text">Savannah Georgia! (Photo by Meli Artieda)</div>
                 </a>
@@ -181,7 +201,8 @@
 
             <div class="mySlides fade">
                 <div class="numbertext">6 / 9</div>
-                <img id="bigImageThree" src="https://lh3.googleusercontent.com/GmiT2jS8YNYZdt2t-CLeeIyjURk207vT2CAp-4cc4dbZHTOlUatfLSsNrwoUUL3s0TrHXc3Cptee6sBzNPLaLNF6MpEceO7us-LW2A3f6h5_zU-KvUto-9aODV8uehUdpe4zqt9fwjQwXK-EkBoLSyEiAxbzaWw8MZBIo-raT6fQGAOpAHEhVfuVOQEE5Mocam1CAmWczBnylykxMqXDx9_65P8LsvUXnQM4lr6K5oOqOGw9gEU6Fj8mutf_6ob9MCZ7Cb-wU2jJ8nc4YluHdqZ1iFyXxK7TLXWfeqiMajeOchOJ6HyOYSn4slB1Yw1Cn9uiDbBgnRHj2mQGgfEg6oBLnu6sFUD-x-knfBSFwcr_3VfDWdBpD14rnUqIAyy-jloWiPewjW7uA9DcWwDzIK5HwRksKt9AJKnYpq9yRdkk5e7gt3U4gSHk6MFMXaNVYPxq0mnbBKsfe0kHuQKKNGeTQzuFxVW9CPO6gtooI6RUH-PNNxZgKQNYgO8PJsRDiBXYtSu4wqU7PDa1VLLCrTlTBOg_gn1_5t2F3tzCU2N1E7EI6nqHZwzDls5tenW6pVhV4sHyoaKU2QXOfA2ns4mK-lX2b4d7OZF2mHGN5_-4joJoZOx3yjUfglpVF5M1H3M5rTZq8a2QLwS6c-ZUZ6Fh=w702-h468-no" style="width:100%">
+                <img id="bigImageThree" class="responsive-img"  src="https://lh3.googleusercontent.com/GmiT2jS8YNYZdt2t-CLeeIyjURk207vT2CAp-4cc4dbZHTOlUatfLSsNrwoUUL3s0TrHXc3Cptee6sBzNPLaLNF6MpEceO7us-LW2A3f6h5_zU-KvUto-9aODV8uehUdpe4zqt9fwjQwXK-EkBoLSyEiAxbzaWw8MZBIo-raT6fQGAOpAHEhVfuVOQEE5Mocam1CAmWczBnylykxMqXDx9_65P8LsvUXnQM4lr6K5oOqOGw9gEU6Fj8mutf_6ob9MCZ7Cb-wU2jJ8nc4YluHdqZ1iFyXxK7TLXWfeqiMajeOchOJ6HyOYSn4slB1Yw1Cn9uiDbBgnRHj2mQGgfEg6oBLnu6sFUD-x-knfBSFwcr_3VfDWdBpD14rnUqIAyy-jloWiPewjW7uA9DcWwDzIK5HwRksKt9AJKnYpq9yRdkk5e7gt3U4gSHk6MFMXaNVYPxq0mnbBKsfe0kHuQKKNGeTQzuFxVW9CPO6gtooI6RUH-PNNxZgKQNYgO8PJsRDiBXYtSu4wqU7PDa1VLLCrTlTBOg_gn1_5t2F3tzCU2N1E7EI6nqHZwzDls5tenW6pVhV4sHyoaKU2QXOfA2ns4mK-lX2b4d7OZF2mHGN5_-4joJoZOx3yjUfglpVF5M1H3M5rTZq8a2QLwS6c-ZUZ6Fh=w702-h468-no"
+                    style="width:100%">
                 <a href="https://www.facebook.com/melissartieda" target="_blank">
                     <div id="blackText" class="text">Savannah Georgia! (Photo by Meli Artieda)</div>
                 </a>
@@ -189,7 +210,8 @@
 
             <div class="mySlides fade">
                 <div class="numbertext">7 / 9</div>
-                <img id="bigImage"src="https://lh3.googleusercontent.com/cr2U-GDykWLUh49SbNtB94CJgihb0kGQwp7lPnfomW_p5uVNkAK0r1XUa1o-Bm52YBKdHaOUHc_CZ-14ee3-gcbsnVMa5MqMStAIOG86VZm9QU8pSBRR_d2D8gQMnqwD1SzHdQ8K7iAya-E3Lvw_nig2mQqTe0xteinKoQ7LzEfQmp2G97Ydl6PhxLYc-l4GAQyRaFryS0HYT4o60xgppB-juQtbv4ijBV1NHf2k2pz9TWMMVbdCQUkvK1LNcnZuk_OqTLEzkX12uyZNxmvoFWyIuQbohul2N5R8tZ-2DPjmx2u2gtpULryHLag0PrTVPxpK0k7HeA9iWr0za9OoGlTNULb2o9YAIwAcPDaiIcfWj5FjwgGPSMFUZKbCNFtXFzjY7VeHe6DMi5F6I9s1k52A_htu1PW7bEGdc-ssrjbPbaoDRKEpdCyD5nNz3_qSVS_gSZXbOrxXniDEqwOGBO_O6iNIPSAYb9vWY6NxMbNCYAUPgOShxR3M0XxY0uBpGSdygPHmhg_mGh3__tphhSKK79HMTEgqXEoFhSG8sF-AOvc3mD8lMP4suEeAtV2vSIT0c4H6EJ_QDHVhCmJBr9qo_o4nbXIrUG5rMLRCIB4s25hrD0soDm0jJOLcttsXWD9SEBoCnXBcnCsaUzK2XkwE=w304-h539-no" style="width:100%">
+                <img id="bigImage" class="responsive-img"src="https://lh3.googleusercontent.com/cr2U-GDykWLUh49SbNtB94CJgihb0kGQwp7lPnfomW_p5uVNkAK0r1XUa1o-Bm52YBKdHaOUHc_CZ-14ee3-gcbsnVMa5MqMStAIOG86VZm9QU8pSBRR_d2D8gQMnqwD1SzHdQ8K7iAya-E3Lvw_nig2mQqTe0xteinKoQ7LzEfQmp2G97Ydl6PhxLYc-l4GAQyRaFryS0HYT4o60xgppB-juQtbv4ijBV1NHf2k2pz9TWMMVbdCQUkvK1LNcnZuk_OqTLEzkX12uyZNxmvoFWyIuQbohul2N5R8tZ-2DPjmx2u2gtpULryHLag0PrTVPxpK0k7HeA9iWr0za9OoGlTNULb2o9YAIwAcPDaiIcfWj5FjwgGPSMFUZKbCNFtXFzjY7VeHe6DMi5F6I9s1k52A_htu1PW7bEGdc-ssrjbPbaoDRKEpdCyD5nNz3_qSVS_gSZXbOrxXniDEqwOGBO_O6iNIPSAYb9vWY6NxMbNCYAUPgOShxR3M0XxY0uBpGSdygPHmhg_mGh3__tphhSKK79HMTEgqXEoFhSG8sF-AOvc3mD8lMP4suEeAtV2vSIT0c4H6EJ_QDHVhCmJBr9qo_o4nbXIrUG5rMLRCIB4s25hrD0soDm0jJOLcttsXWD9SEBoCnXBcnCsaUzK2XkwE=w304-h539-no"
+                    style="width:100%">
                 <a href="https://www.facebook.com/pat.pellom" target="_blank">
                     <div class="text">Christmas 2017 with Nana(Pat Pellom). </div>
                 </a>
@@ -197,15 +219,17 @@
 
             <div class="mySlides fade">
                 <div id="blackText" class="numbertext">8 / 9</div>
-                <img id="bigImageTwo"src="https://lh3.googleusercontent.com/v5pkoEhdVlv_AnEgGFP08ue5DHfbRVuogetq5BxRKYMcmVg6WGUVIiPUhByiFTKTrVFrUcdeDkXNqLSbFzd58y1fd0jLag3h_dPaS6itho-oDC9UTh9LwF8nshi24ngaIepnahvMkrG2sT-h0llYg5Zg6tYDDdW0O7q-EjRL5ZE-QhOA_TSg7qMu-uSBI3TMldPHaPuc1zx-0jPpuf3LwDpoScedufH_3gvG35vb7FA3TZ4ZunJ9rzhgbZIUjV8DxIcdOlQupBijdTxbzUbpPxJw0UmJqcn1Je-Jqa2kVqwRqigQ1xNElTOyoU6sHTTisU3-74Mvap949Mrr3LEP0-D4PyX8L7680skxMax_aTufUYMUS9OnvF-ZE8_sgTDYq-wdZSVKCpcRuZOeu1Ie7rB25EL5jXC9hCkzvuli8vLnSQfOxeKo66KwFXWKWgz1doth3wMXGivVxYxFzp0Uqz3uOoCidpovgYxTGuEoy_JRLHwoaHJdAELAPHj3ahTHG5nd17uyZwREMm_f23i08ko4n4iah-c_k7GBPo6825zRA6FVQf0YoXTWfXyNAv6imhP92jgZVshXuDfA_WOzE5R3EX4PXoEdYlOPt2LaCkih3nTeeutu6OMlZC4RJXfN9UyybVAAAfy9XHTJgVWwbNri=w304-h539-no" style="width:100%">
+                <img id="bigImageTwo" class="responsive-img" src="https://lh3.googleusercontent.com/v5pkoEhdVlv_AnEgGFP08ue5DHfbRVuogetq5BxRKYMcmVg6WGUVIiPUhByiFTKTrVFrUcdeDkXNqLSbFzd58y1fd0jLag3h_dPaS6itho-oDC9UTh9LwF8nshi24ngaIepnahvMkrG2sT-h0llYg5Zg6tYDDdW0O7q-EjRL5ZE-QhOA_TSg7qMu-uSBI3TMldPHaPuc1zx-0jPpuf3LwDpoScedufH_3gvG35vb7FA3TZ4ZunJ9rzhgbZIUjV8DxIcdOlQupBijdTxbzUbpPxJw0UmJqcn1Je-Jqa2kVqwRqigQ1xNElTOyoU6sHTTisU3-74Mvap949Mrr3LEP0-D4PyX8L7680skxMax_aTufUYMUS9OnvF-ZE8_sgTDYq-wdZSVKCpcRuZOeu1Ie7rB25EL5jXC9hCkzvuli8vLnSQfOxeKo66KwFXWKWgz1doth3wMXGivVxYxFzp0Uqz3uOoCidpovgYxTGuEoy_JRLHwoaHJdAELAPHj3ahTHG5nd17uyZwREMm_f23i08ko4n4iah-c_k7GBPo6825zRA6FVQf0YoXTWfXyNAv6imhP92jgZVshXuDfA_WOzE5R3EX4PXoEdYlOPt2LaCkih3nTeeutu6OMlZC4RJXfN9UyybVAAAfy9XHTJgVWwbNri=w304-h539-no"
+                    style="width:100%">
                 <div id="blackText" class="text">Our favorite picture from Little five points.</div>
             </div>
 
             <div class="mySlides fade">
                 <div class="numbertext">9 / 9</div>
-                <img src="https://lh3.googleusercontent.com/r3G30mWO2IxZeXX5wsaOIpSkC2i9Xj651F1dr7ibnj_YKR8DmbdIAkd-K_xj-2bknlswGOtGWyk-kKfPosVYb13JZk2lfP_PKxa1XRK73rMVscLCfwLnIlFhZAenv_xo3oLJU9uZ-BECmHEfuEGI1LrQ8GraFMqonuntbGbxA-lPeTDZxmM62l5J6Ag1wzPMLjdqM15wACN4_Co0ZPOEsOrjkOI0WaL6VN6DaAWXJDYS89gYhqCqyhdpCd4vXng_sRgAV5smBUhc7dK-6IW9DTw14O54hpgdSgcO9H4jWteDuFyVwJeYaOIM06-9Pk7syxJIgVbHw9OpoZn2fxMJg0lBNtH85JJwnV0J1WA0__fn-D1BAQdBnV6_f3HRYt1OsDV5CX6ZAKac7TxcYzvlq_JGWLyjcd9G-_YvsSrK7gY6XNS7DV1yaUDD7qMcEGoHUFDN8sY9t6JF4GjdjDe7a5R4NfGFaf_X4gCsn0e2Lb4MgK-07aWV-WlzFn_ks7YKfx5yx8YHl1hg8SxOJUwNcrhJT1DNWwsljOdmIDNf8k87lHN2nwhJnNfNAcuzQV4AMggnLBxm9Zrru6h-sINhACFTT-p8W4bZZwsZpkk_BIjEvhn6jU71nIyTZhRZaKS5Dg6Y-3vmzII2qPTcnt0VYfZW=w702-h468-no" style="width:100%">
-                <a href="https://www.facebook.com/melissartieda" target="_blank"> 
-                    <div  id="blackText" class="text">Savannah, Georgia! (Photo by Meli Artieda)</div>
+                <img class="responsive-img" src="https://lh3.googleusercontent.com/r3G30mWO2IxZeXX5wsaOIpSkC2i9Xj651F1dr7ibnj_YKR8DmbdIAkd-K_xj-2bknlswGOtGWyk-kKfPosVYb13JZk2lfP_PKxa1XRK73rMVscLCfwLnIlFhZAenv_xo3oLJU9uZ-BECmHEfuEGI1LrQ8GraFMqonuntbGbxA-lPeTDZxmM62l5J6Ag1wzPMLjdqM15wACN4_Co0ZPOEsOrjkOI0WaL6VN6DaAWXJDYS89gYhqCqyhdpCd4vXng_sRgAV5smBUhc7dK-6IW9DTw14O54hpgdSgcO9H4jWteDuFyVwJeYaOIM06-9Pk7syxJIgVbHw9OpoZn2fxMJg0lBNtH85JJwnV0J1WA0__fn-D1BAQdBnV6_f3HRYt1OsDV5CX6ZAKac7TxcYzvlq_JGWLyjcd9G-_YvsSrK7gY6XNS7DV1yaUDD7qMcEGoHUFDN8sY9t6JF4GjdjDe7a5R4NfGFaf_X4gCsn0e2Lb4MgK-07aWV-WlzFn_ks7YKfx5yx8YHl1hg8SxOJUwNcrhJT1DNWwsljOdmIDNf8k87lHN2nwhJnNfNAcuzQV4AMggnLBxm9Zrru6h-sINhACFTT-p8W4bZZwsZpkk_BIjEvhn6jU71nIyTZhRZaKS5Dg6Y-3vmzII2qPTcnt0VYfZW=w702-h468-no"
+                    style="width:100%">
+                <a href="https://www.facebook.com/melissartieda" target="_blank">
+                    <div id="blackText" class="text">Savannah, Georgia! (Photo by Meli Artieda)</div>
                 </a>
             </div>
 
@@ -231,27 +255,21 @@
     </div>
     </div>
 
-<div id="facebookCommentSection">
-    <h5 class="subHeaders">What are people saying?!</h5>
-    <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-<div class="fb-comment-embed"
-   data-href="https://www.facebook.com/permalink.php?story_fbid=977088389148709&id=10000542670401"
-   data-width="500"></div>
-
-   
-</div>
-
-
+    <div id="facebookCommentSection">
+        <h5 class="subHeaders">What are people saying?!</h5>
+        <div id="fb-root"></div>
+        <script>
+            (function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+        <div class="fb-comment-embed" data-href="https://www.facebook.com/permalink.php?story_fbid=977088389148709&id=10000542670401"
+            data-width="500"></div>
+    </div>
 </body>
-
-
-
 </html>
