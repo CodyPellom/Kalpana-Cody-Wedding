@@ -10,7 +10,7 @@ html body header footer {
 } */
 #navBar {
     width: 100vw;
-    height:150px;
+    height: 150px;
     background-image: url("https://lh3.googleusercontent.com/GZRS6KMbE55w6sN3SWHur34VQFio47VCcUH9cRN1HT_o6cRVxH_34Pv1vmexET8f9h45N1LQJ7GLQJN1L5-420RhV330qtUODDigcoaNUdkuGYLRYGb30IewVUq67qkVjI5p7L6rRM7CrOBd-4sOj76qfVZ4lbiG89FNJT2e8MCBOIZrHRHf9TR7gqwJ8dxg5-zuM5ydFH61p9ZJDZ_MoR5KJdxz_UHUF0kNds3fVfeOQ3i9AM9MN4gptu9o5UH4ywOfXtMKcCZzp9PjunWK_gQzEBAoWk9hXZntx5a3NaX5EKXFiA74pdNn513eGVLch4zRQ5-QjiYC--yiytxBXqxDv62pnvfS8QyESASev1-dnp3s9UFv6XkCqf2pUerLvgB7keDENpXg2unCp1JFidyqwOJMXTGKQ1Og6F3eZ1Dzko2X4F4OnoNB3v-k1wKAmiufv8u-ag-vZYt9S2isStsbYwBlVQKgYqcvINUl_tO5QWZT5c4-nzP7z1KBo3C3yz3egE61fqLKkxNQ66ENQgi3JvjJa5TtZyieqNc8ElFF1WbJSYlx9zRVOnMDzNjeVWDyfDE4yxuPVmnvtGUuCxly4fiP0w0w31APQVVLL-uk65oE8t8Sf1X7yjDuVpPjqCOqCkYuOWzPOlm3PA_eNdJC=w1366-h107-no");
     background-repeat: no-repeat;
     background-size: contain;
@@ -80,11 +80,17 @@ html body header footer {
 #mainLanderImage {
     margin-top: 250px;
     width: 1280px;
-    height: 875px;
-    
+    height:1075px;
+
     box-shadow: 10px 10px 8px #888888;
 }
-
+#underLocation {
+    margin-top: 100px;
+}
+#underCeremony {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 .headers {
     font-size: 12vh;
     color: rgb(53, 53, 53);
@@ -96,14 +102,17 @@ html body header footer {
     color: pink;
     font-family: 'Cookie';
 }
+
 #underMain {
     margin-top: 350px;
 }
+
 .seperator {
 
     height: 30px;
 
 }
+
 .descriptors {
     font-size: 4vh;
     font-family: 'Nothing You Could Do';
@@ -128,9 +137,11 @@ html body header footer {
     width: 100vw;
     height: 1000px;
 }
+
 #underAbout {
     padding-bottom: 200px;
 }
+
 #locationSection {
     display: flex;
     flex-direction: column;
@@ -147,6 +158,7 @@ html body header footer {
     align-items: center;
     justify-content: center;
 }
+
 .grid-text-item-ceremony {
     grid-row-start: 1;
     grid-row-end: 2;
@@ -156,21 +168,9 @@ html body header footer {
     box-shadow: 5px 8px 8px #888888;
 
 }
-#mendhiImageSwap {
-    width: 250px;
-    height: 300px;
-    border: solid saddlebrown 5px;
-    
-}
-#mehendiSign {
-    width: 250px;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    padding-right: 100px;
-}
+
+
+
 .grid-container {
     display: grid;
 
@@ -189,16 +189,13 @@ html body header footer {
 
 }
 
-#kunal {
-    margin-left: 100px;
-}
-
 .littleCircleImage {
     box-shadow: 5px 8px 8px #888888;
     border-radius: 50%;
     /* border: solid rgba(92, 255, 193, 0.74) 5px; */
     width: 100px;
     height: 100px;
+    margin-bottom: 50px;
 }
 
 .flexer {
@@ -207,33 +204,31 @@ html body header footer {
     align-items: center;
     justify-content: center;
 }
+.flexer-spacer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 300px;
+}
+
 #joinUs {
     padding-bottom: 100px;
 }
+
 #imageSwap {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-padding-bottom: 250px;
-margin-top: 150px;
+    padding-bottom: 250px;
+    margin-top: 150px;
 }
+
 #locationScript {
     padding-top: 50px;
 }
-#contributeSection {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-    height: 1000px;
-}
 
-#contributeImg {
-    width: 325px;
-    height: 400px;
-}
 
 #vipSection {
     display: flex;
@@ -241,9 +236,28 @@ margin-top: 150px;
     align-items: center;
     justify-content: center;
     width: 100vw;
-    height: 1000px;
-    margin-top: -100px;
+    height: 1200px;
+    margin-top: 200px;
+    margin-bottom: 150px;
+    
 }
+
+.grid-text-vip {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-family: 'Charmonman'
+    
+}
+#vipDescriptorSection{
+    margin-bottom: 200px;
+}
+
 
 #gallerySection {
     display: flex;
@@ -252,7 +266,10 @@ margin-top: 150px;
     justify-content: center;
     width: 100vw;
     height: 725px;
-    margin-top: 100px;
+  
+}
+#underGallery {
+    margin-top: 150px;
 }
 
 #galleryHeader {}
