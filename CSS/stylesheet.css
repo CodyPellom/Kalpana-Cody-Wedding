@@ -34,7 +34,7 @@ html body header footer {
     color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 3.5vh;
-    font-family: 'Quicksand';
+    font-family: 'Goudy Bookletter 1911';
 }
 
 #mainHeaderText {
@@ -79,18 +79,18 @@ html body header footer {
 
 #mainLanderImage {
     margin-top: 250px;
-    width: 1280px;
-    height:1075px;
+    width: 100vh;
+    height: 100%;
 
     box-shadow: 10px 10px 8px #888888;
 }
+
 #underLocation {
     margin-top: 100px;
 }
-#underCeremony {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
+
+
+
 .headers {
     font-size: 12vh;
     color: rgb(53, 53, 53);
@@ -109,14 +109,15 @@ html body header footer {
 
 .seperator {
 
-    height: 30px;
+    height: 5vh;
 
 }
+
 /* |Caveat|Courgette|Handlee|Mali|Merienda|Neucha|Patrick+Hand */
 
 .descriptors {
     font-size: 4vh;
-    font-family: 'Caveat';
+    font-family: 'Goudy Bookletter 1911';
     text-align: center;
     margin-left: 4vw;
     margin-right: 4vw;
@@ -124,8 +125,8 @@ html body header footer {
 
 .circleImageLarge {
     border-radius: 50%;
-    height: 200px;
-    width: 200px;
+    height: 30vh;
+    width: 20vw;
     box-shadow: 5px 8px 8px #888888;
 }
 
@@ -140,7 +141,8 @@ html body header footer {
 }
 
 #underAbout {
-    padding-bottom: 200px;
+    margin-top: -125px;
+    padding-bottom: 100px;
 }
 
 #locationSection {
@@ -159,35 +161,40 @@ html body header footer {
     align-items: center;
     justify-content: center;
 }
+#underCeremony {
+    margin-top: 100px;
+    padding-bottom:100px;
+}
 /* |Caveat|Courgette|Handlee|Mali|Merienda|Neucha|Patrick+Hand */
 
 .grid-item-ceremony {
-display: grid;
+    display: grid;
 
 }
+
 .ceremony-image {
-grid-row-start: 1;
-grid-row-end: 2;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 150px;
     height: 150px;
     margin-right: 50px;
 }
+
 .grid-text-item-ceremony {
-grid-row-start: 2;
-grid-row-end: 3;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-text-align: center;
-margin-right: 50px;
-  
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: 50px;
     box-shadow: 5px 8px 8px #888888;
-    font-family: 'Neucha';
+    font-family: 'Goudy Bookletter 1911';
     width: 200px;
 }
 
@@ -226,6 +233,7 @@ margin-right: 50px;
     align-items: center;
     justify-content: center;
 }
+
 .flexer-spacer {
     display: flex;
     flex-direction: column;
@@ -261,7 +269,12 @@ margin-right: 50px;
     height: 1200px;
     margin-top: 200px;
     margin-bottom: 150px;
-    
+
+}
+
+#underVip {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .grid-text-vip {
@@ -273,10 +286,12 @@ margin-right: 50px;
     text-align: center;
     padding-right: 30px;
     padding-left: 30px;
-    font-family: 'Charmonman'
-    
+    font-family: 'Goudy Bookletter 1911';
+    font-size: 4vh;
+
 }
-#vipDescriptorSection{
+
+#vipDescriptorSection {
     margin-bottom: 200px;
 }
 
@@ -288,28 +303,24 @@ margin-right: 50px;
     justify-content: center;
     width: 100vw;
     height: 725px;
-  
+
 }
+
 #underGallery {
     margin-top: 150px;
+    margin-bottom: -150px;
 }
 
 #galleryHeader {}
 
-#bigImageThree {
-    height: 490px;
-    max-width: 650px;
+.galleryPix {
+    width: 1080px;
+    height: 450px;
 }
 
-#bigImage {
-    max-height: 500px;
-    max-width: 275px;
-}
-
-#bigImageTwo {
-    max-height: 500px;
-    max-width: 275px;
-    padding-bottom: -400px;
+#troubleImg {
+    max-width: 1080px;
+    max-height: 450px;
 }
 
 #blackText {
@@ -432,9 +443,11 @@ margin-right: 50px;
     height: 1050px;
 
 }
+
 #commentHeader {
-margin-bottom: -30px;
+    margin-bottom: -30px;
 }
+
 .instagram-media {
     margin-bottom: 150px;
 }
