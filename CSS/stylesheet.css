@@ -126,7 +126,8 @@ html body header footer {
 .circleImageLarge {
     border-radius: 50%;
     height: 30vh;
-    width: 20vw;
+    width: 23vw;
+    max-width: 165px;
     box-shadow: 5px 8px 8px #888888;
 }
 
@@ -168,25 +169,25 @@ html body header footer {
 /* |Caveat|Courgette|Handlee|Mali|Merienda|Neucha|Patrick+Hand */
 
 .grid-item-ceremony {
-    display: grid;
-
-}
-
-.ceremony-image {
-    grid-row-start: 1;
-    grid-row-end: 2;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 150px;
-    height: 150px;
+
+}
+
+.ceremony-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 20vh;
+    height: 25vh;
     margin-right: 50px;
 }
 
 .grid-text-item-ceremony {
-    grid-row-start: 2;
-    grid-row-end: 3;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -195,6 +196,7 @@ html body header footer {
     margin-right: 50px;
     box-shadow: 5px 8px 8px #888888;
     font-family: 'Goudy Bookletter 1911';
+    font-size: 3vh;
     width: 200px;
 }
 
@@ -311,16 +313,15 @@ html body header footer {
     margin-bottom: -150px;
 }
 
-#galleryHeader {}
 
 .galleryPix {
-    width: 1080px;
-    height: 450px;
+    width: 80vw;
+    height: 70vh;
 }
 
 #troubleImg {
-    max-width: 1080px;
-    max-height: 450px;
+    max-width: 80vw;
+    max-height: 70vh;
 }
 
 #blackText {
