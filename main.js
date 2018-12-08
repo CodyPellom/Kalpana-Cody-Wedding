@@ -32,13 +32,10 @@ $(document).ready(function () {
   
   
   
-    ScrollReveal().reveal('.headers');
+    
     ScrollReveal().reveal('#mainLanderImage');
-    ScrollReveal().reveal('.subHeaders');
     ScrollReveal().reveal('.circleImageLarge');
-    ScrollReveal().reveal('.squareImage');
     ScrollReveal().reveal('.littleCircleImage');
-    ScrollReveal().reveal('.descriptors');
   
   
     setImageOne();
