@@ -1,3 +1,4 @@
 {
-    "editor.fontFamily": " 'Source Code Pro', 'Ubuntu Monospace', 'Droid Sans Fallback'"
+    "editor.fontFamily": " 'Source Code Pro', 'Ubuntu Monospace', 'Droid Sans Fallback'",
+    "git.ignoreLimitWarning": true
 }

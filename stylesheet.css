@@ -1,0 +1,458 @@
+/* 
+html body header footer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+#navBar {
+    width: 100vw;
+    height: 30vh;
+    background-image: url("https://lh3.googleusercontent.com/GZRS6KMbE55w6sN3SWHur34VQFio47VCcUH9cRN1HT_o6cRVxH_34Pv1vmexET8f9h45N1LQJ7GLQJN1L5-420RhV330qtUODDigcoaNUdkuGYLRYGb30IewVUq67qkVjI5p7L6rRM7CrOBd-4sOj76qfVZ4lbiG89FNJT2e8MCBOIZrHRHf9TR7gqwJ8dxg5-zuM5ydFH61p9ZJDZ_MoR5KJdxz_UHUF0kNds3fVfeOQ3i9AM9MN4gptu9o5UH4ywOfXtMKcCZzp9PjunWK_gQzEBAoWk9hXZntx5a3NaX5EKXFiA74pdNn513eGVLch4zRQ5-QjiYC--yiytxBXqxDv62pnvfS8QyESASev1-dnp3s9UFv6XkCqf2pUerLvgB7keDENpXg2unCp1JFidyqwOJMXTGKQ1Og6F3eZ1Dzko2X4F4OnoNB3v-k1wKAmiufv8u-ag-vZYt9S2isStsbYwBlVQKgYqcvINUl_tO5QWZT5c4-nzP7z1KBo3C3yz3egE61fqLKkxNQ66ENQgi3JvjJa5TtZyieqNc8ElFF1WbJSYlx9zRVOnMDzNjeVWDyfDE4yxuPVmnvtGUuCxly4fiP0w0w31APQVVLL-uk65oE8t8Sf1X7yjDuVpPjqCOqCkYuOWzPOlm3PA_eNdJC=w1366-h107-no");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.grid-text {
+    display: grid;
+}
+
+.grid-text-item {
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.grid-text-attributes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 3.5vh;
+    font-family: 'Goudy Bookletter 1911';
+}
+
+#mainHeaderText {
+    font-size: 45px;
+    font-family: 'Bungee Shade';
+    animation: blinkingText 1s infinite;
+    text-align: center;
+}
+
+@keyframes blinkingText {
+    0% {
+        color: rgb(255, 147, 188);
+    }
+
+    49% {
+        color: transparent;
+    }
+
+    50% {
+        color: transparent;
+    }
+
+    99% {
+        color: rgb(255, 147, 188);
+    }
+
+    100% {
+        color: rgb(255, 147, 188);
+    }
+}
+
+#mainLanderSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 500px;
+    margin-top: 50px;
+
+}
+
+#mainLanderImage {
+    margin-top: 250px;
+    width: 100vh;
+    height: 100%;
+
+    box-shadow: 10px 10px 8px #888888;
+}
+
+#underLocation {
+    margin-top: 100px;
+}
+
+
+
+.headers {
+    font-size: 8vh;
+    color: rgb(53, 53, 53);
+    font-family: 'Parisienne';
+    text-align: center;
+}
+
+.subHeaders {
+    font-size: 5vh;
+    color: pink;
+    font-family: 'Cookie';
+}
+
+#underMain {
+    margin-top: 350px;
+}
+
+.seperator {
+
+    height: 5vh;
+
+}
+
+/* |Caveat|Courgette|Handlee|Mali|Merienda|Neucha|Patrick+Hand */
+
+.descriptors {
+    font-size: 3.5vh;
+    font-family: 'Goudy Bookletter 1911';
+    text-align: center;
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+
+.circleImageLarge {
+    border-radius: 50%;
+    height: 20vh;
+    width: 23vw;
+    max-width: 165px;
+    box-shadow: 5px 8px 8px #888888;
+}
+
+#aboutSection {
+    margin-top: -200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 1000px;
+}
+
+#underAbout {
+    margin-top: -125px;
+    padding-bottom: 100px;
+}
+
+#locationSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -75px;
+    width: 100vw;
+    height: 200vh;
+}
+#map {
+    margin-top: -25vh;
+}
+
+#ceremonySection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#underCeremony {
+    margin-top: 100px;
+    padding-bottom:100px;
+}
+/* |Caveat|Courgette|Handlee|Mali|Merienda|Neucha|Patrick+Hand */
+
+.grid-item-ceremony {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.ceremony-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 20vh;
+    height: 25vh;
+}
+
+.grid-text-item-ceremony {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Goudy Bookletter 1911';
+    font-size: 3vh;
+    width: 200px;
+}
+
+
+
+.grid-container {
+    display: grid;
+
+}
+
+.grid-item {
+    margin-right: 25px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+}
+
+.squareImage {
+
+    box-shadow: 10px 10px 8px #888888;
+
+}
+
+.littleCircleImage {
+    box-shadow: 5px 8px 8px #888888;
+    border-radius: 50%;
+    /* border: solid rgba(92, 255, 193, 0.74) 5px; */
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15vh;
+}
+
+.flexer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexer-spacer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 300px;
+}
+
+#joinUs {
+    padding-bottom: 100px;
+}
+
+#imageSwap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 250px;
+    margin-top: 150px;
+}
+
+
+
+
+#vipSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 270vh;
+    
+
+
+}
+
+#underVip {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.grid-text-vip {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-family: 'Goudy Bookletter 1911';
+    font-size: 2.5vh;
+
+}
+
+#vipDescriptorSection {
+    margin-bottom: 200px;
+}
+
+#galleryHeader {
+    margin-top: 10vh;
+}
+#gallerySection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 95vh;
+
+}
+
+#underGallery {
+    margin-top: 30vh;
+    margin-bottom: -20vh;
+}
+
+
+.galleryPix {
+    margin-top: 10vh;
+    width: 100vw;
+    height: 55vh;
+}
+
+#troubleImg {
+   max-width: 100vw;
+   max- height: 55vh;
+}
+
+#blackText {
+    color: rgb(89, 206, 141);
+    font-size: 16px;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    margin-top: -50px;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+#commentSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 1050px;
+
+}
+
+#commentHeader {
+margin-top: 15vh;
+}
+#commentDescriptor {
+margin-top: -10vh;
+}
+.instagram-media {
+    margin-bottom: 15vh;
+}
