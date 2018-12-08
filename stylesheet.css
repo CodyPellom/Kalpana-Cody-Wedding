@@ -230,7 +230,7 @@ html body header footer {
     /* border: solid rgba(92, 255, 193, 0.74) 5px; */
     width: 18vh;
     height: 18vh;
-    margin-bottom: 15vh;
+    margin-bottom: 10vh;
 }
 
 .flexer {
@@ -294,7 +294,7 @@ html body header footer {
     align-content: center;
     text-align: center;
     font-family: 'Goudy Bookletter 1911';
-    font-size: 3vh;
+    font-size: 2.5vh;
 
 }
 
