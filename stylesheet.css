@@ -1,13 +1,6 @@
-/* 
-html body header footer {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-} */
+html, body, head {
+    max-width: 100vmax;
+}
 #navBar {
     width: 100vw;
     height: 30vh;
@@ -86,7 +79,12 @@ html body header footer {
 }
 
 #underLocation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     margin-top: 10vh;
+  
 }
 
 
@@ -316,8 +314,8 @@ html body header footer {
 }
 
 #underGallery {
-    margin-top: 30vh;
-    margin-bottom: -20vh;
+    margin-top: 25vh;
+    margin-bottom: -15vh;
 }
 
 
