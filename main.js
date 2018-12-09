@@ -2,31 +2,27 @@ $(document).ready(function () {
 
     $('#aboutNav').click(function () {
       $('html, body').animate({
-        scrollTop: $("#kalpanaAbout").offset().top
+        scrollTop: $("#aboutUs").offset().top
       }, 1300)
     });
   
     $('#attendNav').click(function () {
       $('html, body').animate({
-        scrollTop: $("#locationSection").offset().top
+        scrollTop: $("#joinUs").offset().top
       }, 1500)
     });
   
-    $('#contribNav').click(function () {
-      $('html, body').animate({
-        scrollTop: $("#contributeSection").offset().top
-      }, 2000)
-    });
+  
   
     $('#vipNav').click(function () {
       $('html, body').animate({
-        scrollTop: $("#vipSection").offset().top
+        scrollTop: $("#vipHead").offset().top
       }, 2000)
     });
   
     $('#networkNav').click(function () {
       $('html, body').animate({
-        scrollTop: $("#facebookCommentSection").offset().top
+        scrollTop: $("#commentHeader").offset().top
       }, 2000)
     });
   
